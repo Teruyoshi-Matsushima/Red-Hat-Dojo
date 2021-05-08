@@ -151,19 +151,24 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 ターミナルを起動するため、左上の[アクティビティ]－[端末]をクリック</br>    
 <kbd><img src=./images/hyper-v/030.png /></kbd>
 
-sudo設定のためターミナルに以下を入力。</br>
-``` visudo ```
-
+sudo設定のためターミナルに```visudo```と入力。</br>
 <kbd><img src=./images/hyper-v/032.png /></kbd>
+</br>
 
-
+```:101```と打って101行目に移動</br>
+ちなみに行番号表示は```:set number```</br>
 <kbd><img src=./images/hyper-v/033.png /></kbd>
+</br>
 
-
+キーボードの```i```を押して編集モードへ移行</br>
+101行目に```testuser ALL=(ALL) ALL```と入力</br>
 <kbd><img src=./images/hyper-v/034.png /></kbd>
+</br>
 
-
+キーボードの[ESC]を押して編集モードを終了</br>
+さらにviを保存＆終了するために```:wq```を入力</br>
 <kbd><img src=./images/hyper-v/034_1.png /></kbd>
+</br>
 
 
 <kbd><img src=./images/hyper-v/034_2.png /></kbd>
