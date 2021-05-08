@@ -326,8 +326,10 @@ PowerShellのプロパティを開く</br>
 </br>
 
 ## サブスクリプション登録
-
+まず手始めに利用可能なリポジトリを確認。</br>
+root権限が必要なので、先に設定しておいた**sudo**を使用</br>
 <kbd><img src=./images/hyper-v/057.png /></kbd>
+</br>
 
 
 <kbd><img src=./images/hyper-v/058.png /></kbd>
@@ -351,5 +353,8 @@ PowerShellのプロパティを開く</br>
 
 
 参考(Special thanks!)
-@yamada-hakase サン
+@___monta___ サン</br>
+![CentOSをHyper-V上に入れるときのポイント（第一世代 vs 第二世代)](https://qiita.com/___monta___/items/7c180e56282e3f1c87d0)
+
+@yamada-hakase サン</br>
 ![Red Hat Developer Programに登録して最大16台までRHELを使おう](https://qiita.com/yamada-hakase/items/dc39d29fda693238d113)
