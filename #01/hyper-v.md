@@ -236,6 +236,55 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 </br>
 
 <kbd><img src=./images/hyper-v/049.png /></kbd>
+</br>
+
+
+<kbd><img src=./images/hyper-v/049.png /></kbd>
+</br>
+
+
+<kbd><img src=./images/hyper-v/049_1.png /></kbd>
+</br>
+
+
+<kbd><img src=./images/hyper-v/049_2.png /></kbd>
+</br>
+
+
+<kbd><img src=./images/hyper-v/049_3.png /></kbd>
+</br>
+
+
+<kbd><img src=./images/hyper-v/049_4.png /></kbd>
+</br>
+
+
+<kbd><img src=./images/hyper-v/049_5.png /></kbd>
+</br>
+
+
+<kbd><img src=./images/hyper-v/049_6.png /></kbd>
+</br>
+
+
+<kbd><img src=./images/hyper-v/049_7.png /></kbd>
+</br>
+
+
+<kbd><img src=./images/hyper-v/049_8.png /></kbd>
+</br>
+
+
+<kbd><img src=./images/hyper-v/049_9.png /></kbd>
+</br>
+
+
+<kbd><img src=./images/hyper-v/049_10.png /></kbd>
+</br>
+
+
+<kbd><img src=./images/hyper-v/049_11.png /></kbd>
+</br>
 
 
 <kbd><img src=./images/hyper-v/050.png /></kbd>
