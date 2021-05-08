@@ -307,15 +307,23 @@ Googleが無償で提供している「Google Public DNS」のIPアドレス```8
 <kbd><img src=./images/hyper-v/054.png /></kbd>
 
 
-## Power Shell 文字化け対策
+## PowerShell 文字化け対策
+初期設定のままの PowerShell ではサブスクリプション登録時のメッセージが文字化けするので、その対策</br>
+文字化けの原因は、初期状態のPowerShellの文字コードは**US-ASCII**。一方、Linux側は**UTF-8**であるためです。</br>
+そのため、PowerShellを**UTF-8**対応し、表示フォントも対応させます。</br>
+PowerShellのプロパティを開く</br>
 <kbd><img src=./images/hyper-v/055_1.png /></kbd>
+</br>
 
-
+[ショートカット]-[リンク先]のパスに以下を追記し、起動時に```chcp```コマンドで**UTF-8(65001)**対応</br>
+``` -NoExit -Command "chcp 65001"```</br>
 <kbd><img src=./images/hyper-v/055_2.png /></kbd>
+</br>
 
-
+またフォントも、文字化けしないフォントへと変更</br>
+**BIZ UDゴシック**はOK。ConsolasはNG。(その他のフォントは未調査。。。)</br>
 <kbd><img src=./images/hyper-v/056.png /></kbd>
-
+</br>
 
 ## サブスクリプション登録
 <kbd><img src=./images/hyper-v/057.png /></kbd>
