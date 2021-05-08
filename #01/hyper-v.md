@@ -275,21 +275,21 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 <kbd><img src=./images/hyper-v/049_8.png /></kbd>
 </br>
 
-
-<kbd><img src=./images/hyper-v/049_9.png /></kbd>
-</br>
-
 「NetworkManager」を終了。その際、「終了」にカーソルを当て右キーで[OK]</br>
-<kbd><img src=./images/hyper-v/049_10.png /></kbd>
+<kbd><img src=./images/hyper-v/049_9.png /></kbd>
 </br>
 
 改めてネットワークへの接続状況を確認するため```ip a```とターミナルへ入力</br>
 赤枠で示すように「eth0」ネットワークへ接続できているようです。</br>
-<kbd><img src=./images/hyper-v/049_11.png /></kbd>
+<kbd><img src=./images/hyper-v/049_10.png /></kbd>
 </br>
 
 まずインターネット環境に対して接続を確認。</br>
 Googleが無償で提供している「Google Public DNS」のIPアドレス```8.8.8.8```へping</br>
+<kbd><img src=./images/hyper-v/049_11.png /></kbd>
+</br>
+
+
 <kbd><img src=./images/hyper-v/050.png /></kbd>
 </br>
 
