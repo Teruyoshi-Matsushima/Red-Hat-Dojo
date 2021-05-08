@@ -5,6 +5,7 @@
 
 ![screenshot](./images/hyper-v/001.png)
 
+<kbd><img src=./images/hyper-v/001.png /></kbd>
 
 ![](./images/hyper-v/002.png)
 
