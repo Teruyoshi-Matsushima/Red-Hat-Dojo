@@ -73,7 +73,7 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 
 
 #### インストール概要
-<kbd><img src=./images/hyper-v/018.png /></kbd>
+<kbd><img src=./images/hyper-v/018_0.png /></kbd>
 
 
 <kbd><img src=./images/hyper-v/018_1.png /></kbd>
