@@ -11,17 +11,21 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 <kbd><img src=./images/hyper-v/001.png /></kbd>
 -->
 
-[操作(A)]-[神域(J)]-[仮想マシン]をクリック</br>
-<kbd><img src=./images/hyper-v/002.png /></kbd>
-
-
-<kbd><img src=./images/hyper-v/003.png /></kbd>
-
-
+まず[仮想スイッチマネージャー]をクリックし、既定のネットワーク(Default Switch)を確認</br>
 <kbd><img src=./images/hyper-v/004.png /></kbd>
+</br>
 
+次に[操作(A)]-[神域(J)]-[仮想マシン]をクリック</br>
+<kbd><img src=./images/hyper-v/002.png /></kbd>
+</br>
 
+<!--
+<kbd><img src=./images/hyper-v/003.png /></kbd>
+-->
+
+[次に]をクリック</br>
 <kbd><img src=./images/hyper-v/005.png /></kbd>
+</br>
 
 
 <kbd><img src=./images/hyper-v/006.png /></kbd>
