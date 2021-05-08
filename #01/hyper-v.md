@@ -36,6 +36,10 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 </br>
 
 #### 世代の指定
+世代の違いはUEFIのセキュアブートへの対応しているか否か。</br>
+Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているので、第二世代でもインストール可。</br>
+ただし、Hyper-Vのデフォルト設定を以下のように変更すること。</br>
+「ハードウェア」→「セキュリティ」→「セキュアブート」</br>
 <kbd><img src=./images/hyper-v/007.png /></kbd>
 </br>
 
@@ -385,7 +389,7 @@ subscription-managerコマンドでユーザー登録</br>
 
 参考(Special thanks!)
 @___monta___ サン</br>
-![CentOSをHyper-V上に入れるときのポイント（第一世代 vs 第二世代)](https://qiita.com/___monta___/items/7c180e56282e3f1c87d0)
+[CentOSをHyper-V上に入れるときのポイント（第一世代 vs 第二世代)](https://qiita.com/___monta___/items/7c180e56282e3f1c87d0)
 
 @yamada-hakase サン</br>
-![Red Hat Developer Programに登録して最大16台までRHELを使おう](https://qiita.com/yamada-hakase/items/dc39d29fda693238d113)
+[Red Hat Developer Programに登録して最大16台までRHELを使おう](https://qiita.com/yamada-hakase/items/dc39d29fda693238d113)
