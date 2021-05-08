@@ -1,11 +1,10 @@
 # Hyper-V編
 
+Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Linux8.3 の仮想マシンを作成します。
 
+## 仮想マシンのプロファイル作成
+<kbd><img src=./images/hyper-v/000.png /></kbd>
 
-
-
-
-<kbd><img src=./images/hyper-v/001.png /></kbd>
 
 <kbd><img src=./images/hyper-v/001.png /></kbd>
 
@@ -46,6 +45,7 @@
 <kbd><img src=./images/hyper-v/013.png /></kbd>
 
 
+## Red Hat Enterprise Linux8.3 インストール開始
 <kbd><img src=./images/hyper-v/014.png /></kbd>
 
 
@@ -63,14 +63,24 @@
 
 <kbd><img src=./images/hyper-v/019.png /></kbd>
 
-
+ ## Red Hat Enterprise Linux8.3 起動！
 <kbd><img src=./images/hyper-v/020.png /></kbd>
 
 
 <kbd><img src=./images/hyper-v/021.png /></kbd>
 
 
+## sudo権限設定
 <kbd><img src=./images/hyper-v/022.png /></kbd>
+
+
+<kbd><img src=./images/hyper-v/022_1.png /></kbd>
+
+
+<kbd><img src=./images/hyper-v/022_2.png /></kbd>
+
+
+<kbd><img src=./images/hyper-v/022_3.png /></kbd>
 
 
 <kbd><img src=./images/hyper-v/023.png /></kbd>
@@ -97,9 +107,6 @@
 <kbd><img src=./images/hyper-v/030.png /></kbd>
 
 
-<kbd><img src=./images/hyper-v/031.png /></kbd>
-
-
 <kbd><img src=./images/hyper-v/032.png /></kbd>
 
 
@@ -109,6 +116,13 @@
 <kbd><img src=./images/hyper-v/034.png /></kbd>
 
 
+<kbd><img src=./images/hyper-v/034_1.png /></kbd>
+
+
+<kbd><img src=./images/hyper-v/034_2.png /></kbd>
+
+
+## 一般ユーザーでログイン
 <kbd><img src=./images/hyper-v/035.png /></kbd>
 
 
@@ -142,6 +156,10 @@
 <kbd><img src=./images/hyper-v/045.png /></kbd>
 
 
+## ネットワーク設定
+<kbd><img src=./images/hyper-v/030.png /></kbd>
+
+
 <kbd><img src=./images/hyper-v/046.png /></kbd>
 
 
@@ -169,12 +187,17 @@
 <kbd><img src=./images/hyper-v/054.png /></kbd>
 
 
-<kbd><img src=./images/hyper-v/055.png /></kbd>
+## Power Shell 文字化け対策
+<kbd><img src=./images/hyper-v/055_1.png /></kbd>
+
+
+<kbd><img src=./images/hyper-v/055_2.png /></kbd>
 
 
 <kbd><img src=./images/hyper-v/056.png /></kbd>
 
 
+## サブスクリプション登録
 <kbd><img src=./images/hyper-v/057.png /></kbd>
 
 
