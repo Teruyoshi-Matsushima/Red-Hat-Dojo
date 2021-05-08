@@ -289,7 +289,9 @@ Googleが無償で提供している「Google Public DNS」のIPアドレス```8
 <kbd><img src=./images/hyper-v/049_11.png /></kbd>
 </br>
 
-
+次にローカルホストとの接続を確認。</br>
+先にホストマシンでpowershellを起動し、```ipconfig```によりIPアドレスを確認。</br>
+ホストマシンは```192.168.3.10```</br>
 <kbd><img src=./images/hyper-v/050.png /></kbd>
 </br>
 
