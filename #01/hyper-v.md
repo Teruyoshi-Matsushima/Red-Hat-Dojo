@@ -198,5 +198,3 @@
 
 <kbd><img src=./images/hyper-v/064.png /></kbd>
 
-
-![image](https://user-images.githubusercontent.com/73378281/117534571-ef040600-b02c-11eb-9ee6-fc3feda0d275.png)
