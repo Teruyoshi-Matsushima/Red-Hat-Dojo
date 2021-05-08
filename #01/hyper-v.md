@@ -106,39 +106,50 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 
 
 ## sudo権限設定
-<kbd><img src=./images/hyper-v/022.png /></kbd>
+<!-- <kbd><img src=./images/hyper-v/022.png /></kbd> -->
 
-
+rootユーザーでログインするため、「アカウントが見つかりませんか？」をクリック</br>
 <kbd><img src=./images/hyper-v/022_1.png /></kbd>
+</br>
 
-
+ユーザー名：root とし「次へ」</br>
 <kbd><img src=./images/hyper-v/022_2.png /></kbd>
+</br>
 
-
+root のパスワードを記入し「サインイン」</br>
 <kbd><img src=./images/hyper-v/022_3.png /></kbd>
+</br>
 
-
+Welcome!画面でこのＯＳで利用する言語を指定</br>
 <kbd><img src=./images/hyper-v/023.png /></kbd>
+</br>
 
+また、位置情報サービスに関してオン/オフを決定</br>
+<kbd><img src=./images/hyper-v/025.png /></kbd>
+</br>
 
 <kbd><img src=./images/hyper-v/024.png /></kbd>
+</br>
 
-
-<kbd><img src=./images/hyper-v/025.png /></kbd>
-
-
+「オンラインアカウントへの接続」ですが、まだネットワークへの接続もできていないので「スキップ」</br>
 <kbd><img src=./images/hyper-v/026.png /></kbd>
+</br>
 
-
+使用準備完了！「Red Hat Enterprise Linuxを使い始める(S)」をクリック</br>
 <kbd><img src=./images/hyper-v/027.png /></kbd>
+</br>
 
-
+やっとログインできました。</br>
 <kbd><img src=./images/hyper-v/028.png /></kbd>
+</br>
 
-
+ターミナルを起動するため、左上の[アクティビティ]－[端末]をクリック</br>
 <kbd><img src=./images/hyper-v/029.png /></kbd>
+</br>
 
-
+sudo設定のためターミナルに以下を入力。</br>
+    visudo
+    
 <kbd><img src=./images/hyper-v/030.png /></kbd>
 
 
