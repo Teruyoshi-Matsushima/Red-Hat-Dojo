@@ -37,40 +37,46 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 
 #### 世代の指定
 <kbd><img src=./images/hyper-v/007.png /></kbd>
+</br>
 
 #### メモリの割り当て
 <kbd><img src=./images/hyper-v/008.png /></kbd>
+</br>
 
 #### ネットワークの構成
 <kbd><img src=./images/hyper-v/009.png /></kbd>
+</br>
 
 #### 仮想ハードディスクの接続
 <kbd><img src=./images/hyper-v/010.png /></kbd>
+</br>
 
 #### インストールオプション
 <kbd><img src=./images/hyper-v/011.png /></kbd>
+</br>
 
 #### 仮想マシンの新規作成ウィザードの完了
 <kbd><img src=./images/hyper-v/012.png /></kbd>
+</br>
 
 #### 
 <kbd><img src=./images/hyper-v/013.png /></kbd>
-
+</br>
 
 ## Red Hat Enterprise Linux8.3 インストール開始
 <kbd><img src=./images/hyper-v/014.png /></kbd>
-
+</br>
 
 <kbd><img src=./images/hyper-v/015.png /></kbd>
-
+</br>
 
 
 <kbd><img src=./images/hyper-v/016.png /></kbd>
-
+</br>
 
 #### 言語の選択
 <kbd><img src=./images/hyper-v/017.png /></kbd>
-
+</br>
 
 #### インストール概要
 ここでrootパスワード作成とインストール先デバイスを指定。</br>
