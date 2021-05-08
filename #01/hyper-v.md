@@ -262,10 +262,10 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 <kbd><img src=./images/hyper-v/049_4.png /></kbd>
 </br>
 
-<!--
+
 <kbd><img src=./images/hyper-v/049_5.png /></kbd>
 </br>
--->
+
 
 「eth0」にカーソルを当て、「アクティベート」で**enter**</br>
 <kbd><img src=./images/hyper-v/049_6.png /></kbd>
