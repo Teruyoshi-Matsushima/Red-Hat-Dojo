@@ -42,6 +42,8 @@ Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているの�
 「ハードウェア」→「セキュリティ」→「セキュアブート」</br>
 <kbd><img src=./images/hyper-v/007.png /></kbd>
 </br>
+[CentOSをHyper-V上に入れるときのポイント（第一世代 vs 第二世代)](https://qiita.com/___monta___/items/7c180e56282e3f1c87d0)
+</br>
 
 #### メモリの割り当て
 <kbd><img src=./images/hyper-v/008.png /></kbd>
@@ -393,3 +395,6 @@ subscription-managerコマンドでユーザー登録</br>
 
 @yamada-hakase サン</br>
 [Red Hat Developer Programに登録して最大16台までRHELを使おう](https://qiita.com/yamada-hakase/items/dc39d29fda693238d113)
+
+@s4i サン</br>
+[PowerShell起動時、文字コードをUTF-8に変える方法](https://qiita.com/s4i/items/75c19c9feb10b54c1ce9)
