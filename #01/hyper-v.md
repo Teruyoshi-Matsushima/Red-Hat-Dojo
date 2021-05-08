@@ -232,21 +232,25 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 -->
 
 右上の[電源ボタン]-[有線オフ]-[接続]をクリック</br>
+この方法では、起動のたびにネットワークコネクションをオンしなければならない。</br>
+そのため以下の方法で起動時に自動的に接続するように設定する。</br>
 <kbd><img src=./images/hyper-v/048.png /></kbd>
 </br>
 
+ターミナルを起動し```nmtui```を入力し、「NetworkManager」を起動</br>
 <kbd><img src=./images/hyper-v/049.png /></kbd>
 </br>
 
-
+十字キーを使い「接続の編集」にカーソルを当て**enter**</br>
 <kbd><img src=./images/hyper-v/049.png /></kbd>
 </br>
 
-
+「eth0」にカーソルを当て、右メニューから「編集」を選択</br>
 <kbd><img src=./images/hyper-v/049_1.png /></kbd>
 </br>
 
-
+「接続の編集」画面で「自動的に接続する」にカーソルを当て、**スペース**キー</br>
+その後、[OK]にカーソルを当て**enter**
 <kbd><img src=./images/hyper-v/049_2.png /></kbd>
 </br>
 
@@ -254,15 +258,16 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 <kbd><img src=./images/hyper-v/049_3.png /></kbd>
 </br>
 
-
+「接続をアクティベートする」にカーソルを当て**enter**</br>
 <kbd><img src=./images/hyper-v/049_4.png /></kbd>
 </br>
 
-
+<!--
 <kbd><img src=./images/hyper-v/049_5.png /></kbd>
 </br>
+-->
 
-
+「eth0」にカーソルを当て、「アクティベート」で**enter**</br>
 <kbd><img src=./images/hyper-v/049_6.png /></kbd>
 </br>
 
