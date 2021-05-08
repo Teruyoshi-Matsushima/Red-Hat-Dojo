@@ -11,6 +11,7 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 <kbd><img src=./images/hyper-v/001.png /></kbd>
 -->
 
+### Hyper-Vマネージャー
 まず[仮想スイッチマネージャー]をクリックし、既定のネットワーク(Default Switch)があることを確認</br>
 <kbd><img src=./images/hyper-v/004.png /></kbd>
 </br>
@@ -23,35 +24,36 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 <kbd><img src=./images/hyper-v/003.png /></kbd>
 -->
 
-### 開始する前に
+#### 開始する前に
 [次に]をクリック</br>
 <kbd><img src=./images/hyper-v/005.png /></kbd>
 </br>
 
+#### 名前と場所の指定
 ここで適切な仮想マシン名をつけて下さい。</br>
 また、この仮想マシンのデータを別の場所に格納したい場合は、チェックを付けて格納場所を選択する。</br>
 <kbd><img src=./images/hyper-v/006.png /></kbd>
 </br>
 
-
+#### 世代の指定
 <kbd><img src=./images/hyper-v/007.png /></kbd>
 
-
+#### メモリの割り当て
 <kbd><img src=./images/hyper-v/008.png /></kbd>
 
-
+#### ネットワークの構成
 <kbd><img src=./images/hyper-v/009.png /></kbd>
 
-
+#### 仮想ハードディスクの接続
 <kbd><img src=./images/hyper-v/010.png /></kbd>
 
-
+#### インストールオプション
 <kbd><img src=./images/hyper-v/011.png /></kbd>
 
-
+#### 仮想マシンの新規作成ウィザードの完了
 <kbd><img src=./images/hyper-v/012.png /></kbd>
 
-
+#### 
 <kbd><img src=./images/hyper-v/013.png /></kbd>
 
 
