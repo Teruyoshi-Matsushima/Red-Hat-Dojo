@@ -242,19 +242,15 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 </br>
 
 十字キーを使い「接続の編集」にカーソルを当て**enter**</br>
-<kbd><img src=./images/hyper-v/049.png /></kbd>
+<kbd><img src=./images/hyper-v/049_1.png /></kbd>
 </br>
 
 「eth0」にカーソルを当て、右メニューから「編集」を選択</br>
-<kbd><img src=./images/hyper-v/049_1.png /></kbd>
+<kbd><img src=./images/hyper-v/049_2.png /></kbd>
 </br>
 
 「接続の編集」画面で「自動的に接続する」にカーソルを当て、**スペース**キー</br>
 その後、[OK]にカーソルを当て**enter**
-<kbd><img src=./images/hyper-v/049_2.png /></kbd>
-</br>
-
-
 <kbd><img src=./images/hyper-v/049_3.png /></kbd>
 </br>
 
