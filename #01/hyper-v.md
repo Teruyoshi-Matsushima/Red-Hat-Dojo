@@ -160,53 +160,57 @@ sudo設定のためターミナルに```visudo```と入力。</br>
 <kbd><img src=./images/hyper-v/033.png /></kbd>
 </br>
 
-キーボードの```i```を押して編集モードへ移行</br>
-101行目に```testuser ALL=(ALL) ALL```と入力</br>
+キーボードの```i```を押して編集モードへ移行。101行目に```testuser ALL=(ALL) ALL```と入力。</br>
+キーボードの[ESC]を押して編集モードを終了し、さらにviを保存＆終了するために```:wq```を入力</br>
 <kbd><img src=./images/hyper-v/034.png /></kbd>
 </br>
 
-キーボードの[ESC]を押して編集モードを終了</br>
-さらにviを保存＆終了するために```:wq```を入力</br>
+rootユーザーからログアウト</br>
 <kbd><img src=./images/hyper-v/034_1.png /></kbd>
 </br>
 
-
 <kbd><img src=./images/hyper-v/034_2.png /></kbd>
-
+</br>
 
 ## 一般ユーザーでログイン
+インストールの途中で作成した一般ユーザー```testuser```でログイン</br>
 <kbd><img src=./images/hyper-v/035.png /></kbd>
+</br>
 
-
+パスワードを入力</br>
 <kbd><img src=./images/hyper-v/036.png /></kbd>
-
+</br>
 
 <kbd><img src=./images/hyper-v/037.png /></kbd>
 
 
+Welcome!画面でこのＯＳで利用する言語を指定</br>
 <kbd><img src=./images/hyper-v/038.png /></kbd>
+</br>
 
-
+位置情報サービスに関してオン/オフを決定</br>
 <kbd><img src=./images/hyper-v/039.png /></kbd>
-
+</br>
 
 <kbd><img src=./images/hyper-v/040.png /></kbd>
+</br>
 
-
+「オンラインアカウントへの接続」ですが、まだネットワークへの接続もできていないので「スキップ」</br>
 <kbd><img src=./images/hyper-v/041.png /></kbd>
+</br>
 
-
+使用準備完了！「Red Hat Enterprise Linuxを使い始める(S)」をクリック</br>
 <kbd><img src=./images/hyper-v/042.png /></kbd>
-
+</br>
 
 <kbd><img src=./images/hyper-v/043.png /></kbd>
-
+</br>
 
 <kbd><img src=./images/hyper-v/044.png /></kbd>
-
+</br>
 
 <kbd><img src=./images/hyper-v/045.png /></kbd>
-
+</br>
 
 ## ネットワーク設定
 <kbd><img src=./images/hyper-v/030.png /></kbd>
