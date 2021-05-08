@@ -98,6 +98,10 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 </br>
 
  ## Red Hat Enterprise Linux8.3 起動！
+[Red Hat Enterprise Linux (・・・)]にカーソルを当て**enter**</br> 
+<kbd><img src=./images/hyper-v/020_0.png /></kbd>
+ 
+ 
 <kbd><img src=./images/hyper-v/020.png /></kbd>
 
 
