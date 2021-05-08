@@ -321,11 +321,12 @@ PowerShellのプロパティを開く</br>
 </br>
 
 またフォントも、文字化けしないフォントへと変更</br>
-**BIZ UDゴシック**はOK。ConsolasはNG。(その他のフォントは未調査。。。)</br>
+**BIZ UDゴシック**はOK。ConsolasはNG。(その他のフォントは未調査。。。m(_ _)m )</br>
 <kbd><img src=./images/hyper-v/056.png /></kbd>
 </br>
 
 ## サブスクリプション登録
+
 <kbd><img src=./images/hyper-v/057.png /></kbd>
 
 
@@ -348,3 +349,7 @@ PowerShellのプロパティを開く</br>
 
 <kbd><img src=./images/hyper-v/064.png /></kbd>
 
+
+参考(Special thanks!)
+@yamada-hakase サン
+![Red Hat Developer Programに登録して最大16台までRHELを使おう](https://qiita.com/yamada-hakase/items/dc39d29fda693238d113)
