@@ -8,7 +8,9 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 </br>
 
 [](
+<!--
 <kbd><img src=./images/hyper-v/001.png /></kbd>
+-->
 )
 
 
