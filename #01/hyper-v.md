@@ -76,6 +76,18 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 <kbd><img src=./images/hyper-v/018.png /></kbd>
 
 
+<kbd><img src=./images/hyper-v/018_1.png /></kbd>
+
+
+<kbd><img src=./images/hyper-v/018_2.png /></kbd>
+
+
+<kbd><img src=./images/hyper-v/018_3.png /></kbd>
+
+
+<kbd><img src=./images/hyper-v/018_4.png /></kbd>
+
+
 <kbd><img src=./images/hyper-v/019.png /></kbd>
 
 
