@@ -207,24 +207,33 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 <kbd><img src=./images/hyper-v/043.png /></kbd>
 </br>
 
+「初めて使う方へ」画面ですが右上の[×]をクリック</br>
 <kbd><img src=./images/hyper-v/044.png /></kbd>
 </br>
 
+<!--
 <kbd><img src=./images/hyper-v/045.png /></kbd>
 </br>
+-->
 
 ## ネットワーク設定
+ターミナルを起動するため、左上の[アクティビティ]－[端末]をクリック</br>
 <kbd><img src=./images/hyper-v/030.png /></kbd>
+</br>
 
-
+ネットワークへの接続状況を確認するため```ip a```とターミナルへ入力</br>
+赤枠で示すように「eth0」ネットワークへは接続されていないようです。</br>
 <kbd><img src=./images/hyper-v/046.png /></kbd>
+</br>
 
-
+<!--
 <kbd><img src=./images/hyper-v/047.png /></kbd>
+</br>
+-->
 
-
+右上の[電源ボタン]-[有線オフ]-[接続]をクリック</br>
 <kbd><img src=./images/hyper-v/048.png /></kbd>
-
+</br>
 
 <kbd><img src=./images/hyper-v/049.png /></kbd>
 
