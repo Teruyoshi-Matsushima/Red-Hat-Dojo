@@ -143,15 +143,16 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 <kbd><img src=./images/hyper-v/028.png /></kbd>
 </br>
 
-ターミナルを起動するため、左上の[アクティビティ]－[端末]をクリック</br>
+<!--
 <kbd><img src=./images/hyper-v/029.png /></kbd>
 </br>
-
-sudo設定のためターミナルに以下を入力。</br>
-    visudo
+-->
     
+ターミナルを起動するため、左上の[アクティビティ]－[端末]をクリック</br>    
 <kbd><img src=./images/hyper-v/030.png /></kbd>
 
+sudo設定のためターミナルに以下を入力。</br>
+``` visudo
 
 <kbd><img src=./images/hyper-v/032.png /></kbd>
 
