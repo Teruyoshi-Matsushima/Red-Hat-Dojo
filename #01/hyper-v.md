@@ -3,7 +3,7 @@
 
 
 
-![](./images/hyper-v/001.png)
+![screenshot](./images/hyper-v/001.png)
 
 
 ![](./images/hyper-v/002.png)
