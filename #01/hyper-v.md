@@ -282,6 +282,7 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 改めてネットワークへの接続状況を確認するため```ip a```とターミナルへ入力</br>
 赤枠で示すように「eth0」ネットワークへ接続できているようです。</br>
 ゲストOSのIPアドレスは```172.18.50.147```</br>
+**このIPアドレスは接続確認時に利用しますので、どこかメモしておいてください**</br>
 <kbd><img src=./images/hyper-v/049_10.png /></kbd>
 </br>
 
@@ -293,6 +294,7 @@ Googleが無償で提供している「Google Public DNS」のIPアドレス```8
 次にローカルホストとの接続を確認。</br>
 先にホストマシンでpowershellを起動し、```ipconfig```によりIPアドレスを確認。</br>
 ホストマシンは```192.168.3.10```</br>
+**このIPアドレスは接続確認時に利用しますので、どこかメモしておいてください**</br>
 <kbd><img src=./images/hyper-v/050.png /></kbd>
 </br>
 
@@ -300,13 +302,8 @@ Googleが無償で提供している「Google Public DNS」のIPアドレス```8
 接続できているようです。</br>
 <kbd><img src=./images/hyper-v/051.png /></kbd>
 
-
-<kbd><img src=./images/hyper-v/052.png /></kbd>
-
-
-<kbd><img src=./images/hyper-v/053.png /></kbd>
-
-
+ホストマシン側からゲストマシン側へping</br>
+接続できているようです。</br>
 <kbd><img src=./images/hyper-v/054.png /></kbd>
 
 
