@@ -335,24 +335,25 @@ subscription-managerコマンドでユーザー登録</br>
 文法：```subscription-manager register --username <ユーザー名> --password <パスワード>```</br>
 ユーザー名とパスワードはRed Hat Customer Portalのものを使用</br>
 <kbd><img src=./images/hyper-v/058.png /></kbd>
+</br>
 
-
+システムのロールとサービスレベルを設定し、サブスクリプションをアタッチ</br>
 <kbd><img src=./images/hyper-v/059.png /></kbd>
-
+</br>
 
 <kbd><img src=./images/hyper-v/060.png /></kbd>
-
+</br>
 
 
 
 <kbd><img src=./images/hyper-v/062.png /></kbd>
-
+</br>
 
 <kbd><img src=./images/hyper-v/063.png /></kbd>
-
+</br>
 
 <kbd><img src=./images/hyper-v/064.png /></kbd>
-
+</br>
 
 参考(Special thanks!)
 @___monta___ サン</br>
