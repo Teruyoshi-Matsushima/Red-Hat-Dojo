@@ -301,11 +301,19 @@ Googleが無償で提供している「Google Public DNS」のIPアドレス```8
 ゲストマシン側からホストマシン側へping</br>
 接続できているようです。</br>
 <kbd><img src=./images/hyper-v/051.png /></kbd>
+</br>
 
 ホストマシン側からゲストマシン側へping</br>
 接続できているようです。</br>
 <kbd><img src=./images/hyper-v/054.png /></kbd>
+</br>
 
+## ホストマシンからゲストマシンへのSSH接続
+ホストマシンのPowerShellからゲストマシンへ以下のコマンドでssh接続</br>
+文法：```ssh <ログインユーザー>@<IPアドレス> ```</br>
+パスワードを入力するとゲストマシンへSSH経由で接続</br>
+<kbd><img src=./images/hyper-v/054_1.png /></kbd>
+</br>
 
 ## PowerShell 文字化け対策
 初期設定のままの PowerShell ではサブスクリプション登録時のメッセージが文字化けするので、その対策</br>
