@@ -360,7 +360,7 @@ subscription-managerコマンドでユーザー登録</br>
 これじゃぁ、どれを登録したのか分からないですね。でも、5/8に登録したこれをクリック</br>
 
 サブスクリプション登録時にUUIDを入手しているので比較</br>
-<kbd><img src=./images/hyper-v/064.png /></kbd>
+<kbd><img src=./images/hyper-v/065.png /></kbd>
 </br>
 同じですね。</br>
 
