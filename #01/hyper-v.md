@@ -331,7 +331,9 @@ root権限が必要なので、先に設定しておいた**sudo**を使用</br>
 <kbd><img src=./images/hyper-v/057.png /></kbd>
 </br>
 
-
+subscription-managerコマンドでユーザー登録</br>
+文法：```subscription-manager register --username <ユーザー名> --password <パスワード>```</br>
+ユーザー名とパスワードはRed Hat Customer Portalのものを使用</br>
 <kbd><img src=./images/hyper-v/058.png /></kbd>
 
 
