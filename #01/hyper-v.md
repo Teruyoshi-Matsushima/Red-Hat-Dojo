@@ -64,8 +64,6 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 <kbd><img src=./images/hyper-v/015.png /></kbd>
 
 
-<kbd><img src=./images/hyper-v/021.png /></kbd>
-
 
 <kbd><img src=./images/hyper-v/016.png /></kbd>
 
@@ -83,6 +81,10 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 
  ## Red Hat Enterprise Linux8.3 起動！
 <kbd><img src=./images/hyper-v/020.png /></kbd>
+
+
+
+<kbd><img src=./images/hyper-v/021.png /></kbd>
 
 
 ## sudo権限設定
