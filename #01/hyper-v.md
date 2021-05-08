@@ -73,25 +73,29 @@ Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Li
 
 
 #### インストール概要
-ここでrootパスワード作成とインストール先デバイスを指定します。</br>
+ここでrootパスワード作成とインストール先デバイスを指定。</br>
 <kbd><img src=./images/hyper-v/018_0.png /></kbd>
-
+</br>
 
 まずrootパスワード作成。</br>
 <kbd><img src=./images/hyper-v/018_1.png /></kbd>
+</br>
 
-次にインストール先デバイスを選択します。赤枠で囲まれたエリアをクリックしてください。</br>
+次にインストール先デバイスを選択します。赤枠で囲まれたエリアをクリック。</br>
 <kbd><img src=./images/hyper-v/018_2.png /></kbd>
+</br>
 
-
+最後に「インストールの開始(R)」をクリック</br>
 <kbd><img src=./images/hyper-v/018_3.png /></kbd>
+</br>
 
 
 <kbd><img src=./images/hyper-v/018_4.png /></kbd>
+</br>
 
-
+インストール終了後、「システム再起動(R)」をクリック</br>
 <kbd><img src=./images/hyper-v/019.png /></kbd>
-
+</br>
 
  ## Red Hat Enterprise Linux8.3 起動！
 <kbd><img src=./images/hyper-v/020.png /></kbd>
