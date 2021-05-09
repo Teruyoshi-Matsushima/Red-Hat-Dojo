@@ -70,17 +70,17 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 </br>
 
 
-つぎにインストール先のデバイスを選択するため、赤枠で囲まれたエリアをクリック</br>
+</br>
 <kbd><img src=./images/virtualbox/014.png /></kbd>
 </br>
 
 
-最後に「インストールの開始(R)」をクリック</br>
+つぎにインストール先のデバイスを選択するため、赤枠で囲まれたエリアをクリック</br>
 <kbd><img src=./images/virtualbox/015.png /></kbd>
 </br>
 
 
-</br>
+最後に「インストールの開始(R)」をクリック</br>
 <kbd><img src=./images/virtualbox/016.png /></kbd>
 </br>
 
@@ -90,28 +90,29 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 </br>
 
 
-</br>
+インストール終了後、「システム再起動(R)」をクリック</br>
 <kbd><img src=./images/virtualbox/018.png /></kbd>
 </br>
 
 ## Red Hat Enterprise Linux8.3 起動！
 
-</br>
+[Red Hat Enterprise Linux (・・・)]にカーソルを当て**enter**</br>
 <kbd><img src=./images/virtualbox/019.png /></kbd>
 </br>
 
 
-</br>
+**初期セットアップ**</br>
 <kbd><img src=./images/virtualbox/020.png /></kbd>
 </br>
 
 
-</br>
+**ライセンス契約への同意**</br>
 <kbd><img src=./images/virtualbox/021.png /></kbd>
 </br>
 
 
-</br>
+**システム**</br>
+サブスクリプション登録なのだけど、ネットワークに接続されていない状態では失敗</br>
 <kbd><img src=./images/virtualbox/022.png /></kbd>
 </br>
 
@@ -121,7 +122,8 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 </br>
 
 
-</br>
+**ユーザーの作成**</br>
+
 <kbd><img src=./images/virtualbox/024.png /></kbd>
 </br>
 
