@@ -255,4 +255,9 @@
 <kbd><img src=./images/virtualbox/051.png /></kbd>
 </br>
 
-![image](https://user-images.githubusercontent.com/73378281/117557923-2ae1ae80-b0b3-11eb-9bdb-3996581e064d.png)
+
+
+参考(Special thanks!)
+@yamada-hakase サン</br>
+[Red Hat Developer Programに登録して最大16台までRHELを使おう](https://qiita.com/yamada-hakase/items/dc39d29fda693238d113)
+
