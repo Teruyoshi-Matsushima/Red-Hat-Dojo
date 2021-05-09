@@ -278,7 +278,6 @@ NATについては、アドレス変換しているだけなので仮想NICは�
 <kbd><img src=./images/virtualbox/061.png /></kbd>
 </br>
 
-## ホストマシンからゲストマシンへのSSH接続
 
 </br>
 <kbd><img src=./images/virtualbox/062_0.png /></kbd>
@@ -359,9 +358,15 @@ NATについては、アドレス変換しているだけなので仮想NICは�
 <kbd><img src=./images/virtualbox/076.png /></kbd>
 </br>
 
+## ホストマシンからゲストマシンへのSSH接続
 
 </br>
 <kbd><img src=./images/virtualbox/077.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/078.png /></kbd>
 </br>
 
 
