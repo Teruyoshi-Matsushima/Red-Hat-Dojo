@@ -221,7 +221,32 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 ## ネットワーク設定
 
 ターミナルを起動するため、左上の[アクティビティ]－[端末]をクリック</br>
-<kbd><img src=./images/virtualbox/043.png /></kbd>
+<kbd><img src=./images/virtualbox/052.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/053.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/054.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/055.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/056.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/046.png /></kbd>
 </br>
 
 
@@ -236,32 +261,12 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 
 
 </br>
-<kbd><img src=./images/virtualbox/046.png /></kbd>
+<kbd><img src=./images/virtualbox/060.png /></kbd>
 </br>
 
 
 </br>
-<kbd><img src=./images/virtualbox/047.png /></kbd>
-</br>
-
-
-</br>
-<kbd><img src=./images/virtualbox/048.png /></kbd>
-</br>
-
-
-</br>
-<kbd><img src=./images/virtualbox/049.png /></kbd>
-</br>
-
-
-</br>
-<kbd><img src=./images/virtualbox/050.png /></kbd>
-</br>
-
-
-</br>
-<kbd><img src=./images/virtualbox/051.png /></kbd>
+<kbd><img src=./images/virtualbox/061.png /></kbd>
 </br>
 
 
