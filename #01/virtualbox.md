@@ -370,6 +370,45 @@ NATについては、アドレス変換しているだけなので仮想NICは�
 </br>
 
 
+## サブスクリプション登録
+まず手始めに利用可能なリポジトリを確認。</br>
+root権限が必要なので、先に設定しておいた**sudo**を使用</br>
+<kbd><img src=./images/hyper-v/057.png /></kbd>
+</br>
+
+subscription-managerコマンドでユーザー登録</br>
+文法：```subscription-manager register --username <ユーザー名> --password <パスワード>```</br>
+ユーザー名とパスワードはRed Hat Customer Portalのものを使用</br>
+<kbd><img src=./images/hyper-v/058.png /></kbd>
+</br>
+
+システムのロールとサービスレベルを設定し、サブスクリプションをアタッチ</br>
+<kbd><img src=./images/hyper-v/059.png /></kbd>
+</br>
+
+サブスクリプションのステータス確認</br>
+<kbd><img src=./images/hyper-v/060.png /></kbd>
+</br>
+
+再度、リポジトリを確認</br>
+<kbd><img src=./images/hyper-v/062.png /></kbd>
+</br>
+
+アップデートパッケージを確認</br>
+<kbd><img src=./images/hyper-v/063.png /></kbd>
+</br>
+
+## Red Hat Customer Portalで登録状況確認
+<kbd><img src=./images/hyper-v/064.png /></kbd>
+</br>
+
+これじゃぁ、どれを登録したのか分からないですね。でも、5/8に登録したこれをクリック</br>
+
+サブスクリプション登録時にUUIDを入手しているので比較</br>
+<kbd><img src=./images/hyper-v/065.png /></kbd>
+</br>
+同じですね。</br>
+
 
 
 参考(Special thanks!)
