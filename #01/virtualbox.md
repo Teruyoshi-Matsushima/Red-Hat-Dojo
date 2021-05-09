@@ -281,6 +281,11 @@ NATについては、アドレス変換しているだけなので仮想NICは�
 ## ホストマシンからゲストマシンへのSSH接続
 
 </br>
+<kbd><img src=./images/virtualbox/062_0.png /></kbd>
+</br>
+
+
+</br>
 <kbd><img src=./images/virtualbox/062.png /></kbd>
 </br>
 
