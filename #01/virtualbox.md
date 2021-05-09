@@ -1,6 +1,7 @@
 # VirtualBox編
 
 VirtualBoxを使ってMac, Windowsに Red Hat Enterprise Linux8.3 の仮想マシンを作成します。
+インストール後、sudo設定・ネットワーク設定・サブスクリプション登録までを実施し、 Red Hat Enterprise Linux8.3 マシンとして利用できる環境を構築します。
 前提：VirtualBoxインストール済み、Red Hat Enterprise Linux8.3 インストール用ISOダウンロード済み。
 
 ## 仮想マシンのプロファイル作成
@@ -47,6 +48,7 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 <kbd><img src=./images/virtualbox/008.png /></kbd>
 </br>
 
+## Red Hat Enterprise Linux8.3 インストール開始
 
 </br>
 <kbd><img src=./images/virtualbox/009.png /></kbd>
@@ -97,6 +99,7 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 <kbd><img src=./images/virtualbox/018.png /></kbd>
 </br>
 
+## Red Hat Enterprise Linux8.3 起動！
 
 </br>
 <kbd><img src=./images/virtualbox/019.png /></kbd>
@@ -137,6 +140,7 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 <kbd><img src=./images/virtualbox/026.png /></kbd>
 </br>
 
+## sudo権限設定
 
 </br>
 <kbd><img src=./images/virtualbox/027.png /></kbd>
@@ -172,6 +176,7 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 <kbd><img src=./images/virtualbox/033.png /></kbd>
 </br>
 
+## 一般ユーザーでログイン
 
 </br>
 <kbd><img src=./images/virtualbox/034.png /></kbd>
@@ -217,6 +222,7 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 <kbd><img src=./images/virtualbox/042.png /></kbd>
 </br>
 
+## ネットワーク設定
 
 </br>
 <kbd><img src=./images/virtualbox/043.png /></kbd>
