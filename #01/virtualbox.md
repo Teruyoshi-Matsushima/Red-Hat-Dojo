@@ -278,6 +278,88 @@ NATについては、アドレス変換しているだけなので仮想NICは�
 <kbd><img src=./images/virtualbox/061.png /></kbd>
 </br>
 
+## ホストマシンからゲストマシンへのSSH接続
+
+</br>
+<kbd><img src=./images/virtualbox/062.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/063.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/064.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/065.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/066.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/067.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/068.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/069.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/070.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/071.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/072.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/073.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/074.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/075.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/076.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/virtualbox/077.png /></kbd>
+</br>
+
+
 
 
 参考(Special thanks!)
