@@ -3,6 +3,11 @@
 Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Linux8.3 の仮想マシンを作成します。
 
 ## 仮想マシンのプロファイル作成
+
+Red Hat Enterprise Linux8.3 の推奨スペック
+<kbd><img src=./images/virtualbox/002.png /></kbd>
+</br>
+
 [スタート]-[Windows管理ツール]-[Hyper-V マネージャー]をクリックし、Hyper-Vマネージャーを起動</br>
 <kbd><img src=./images/hyper-v/000.png /></kbd>
 </br>
