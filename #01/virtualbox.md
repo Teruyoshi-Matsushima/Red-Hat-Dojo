@@ -225,42 +225,51 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 </br>
 
 
-</br>
+ネットワークへの接続状況を確認するためip aとターミナルへ入力</br>
+赤枠で示すように「eth0」ネットワークへは接続されていないようです。</br>
 <kbd><img src=./images/virtualbox/053.png /></kbd>
 </br>
 
-
-</br>
+仮想マシンのプロファイル作成時にネットワーク設定の中でNATとホストオンリーアダプターを設定したので再度内容を確認</br>
+それぞれのデバイス名を明らかにしましょう</br>
+まず、アダプター１のNAT設定から</br>
+真ん中くらいにある「高度」をクリックし詳細を表示してください</br>
+そのMACアドレスに注目し、その下４桁くらいをメモしておいてください</br>
+NATについては、アドレス変換しているだけなので仮想NICは不要のようです</br>
 <kbd><img src=./images/virtualbox/054.png /></kbd>
 </br>
 
 
-</br>
+次に、アダプター2のホストオンリーアダプター設定</br>
+真ん中くらいにある「高度」をクリックし、そのMACアドレスの下４桁くらいをメモしておいてください</br>
+ホストオンリーアダプターは仮想NICを**vboxnet0**使ってIPアドレスを付与しています</br>
 <kbd><img src=./images/virtualbox/055.png /></kbd>
 </br>
 
 
-</br>
+再度、Red Hat Enterprise Linux のネットワーク設定</br>
 <kbd><img src=./images/virtualbox/056.png /></kbd>
 </br>
-
+これより、NATのデバイス名は**enp0s3**、ホストオンリーアダプターのデバイス名は**enp0s8**であることが判明
 
 </br>
 <kbd><img src=./images/virtualbox/046.png /></kbd>
 </br>
 
 
-</br>
+ホストオンリーアダプターは仮想NICを使用しているので、その設定を確認</br>
+まずは、「DHCPサーバー」側から確認し、サーバーアドレスやネットマスク、割り当てるIPアドレスレンジを確認</br>
 <kbd><img src=./images/virtualbox/044.png /></kbd>
 </br>
 
 
-</br>
+次に「アダプター」</br>
+「アダプターを手動で設定」しか選択できないので、先程確認したDHCPサーバーのアドレスやネットマスクからこのアダプターのIPアドレスを決定</br>
 <kbd><img src=./images/virtualbox/045.png /></kbd>
 </br>
 
 
-</br>
+「アダプターを自動で設定」した場合は、以下のようになり設定できません</br>
 <kbd><img src=./images/virtualbox/060.png /></kbd>
 </br>
 
