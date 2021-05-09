@@ -1,26 +1,33 @@
 # VirtualBox編
 
+VirtualBoxを使ってMac, Windowsに Red Hat Enterprise Linux8.3 の仮想マシンを作成します。
+前提：VirtualBoxインストール済み、Red Hat Enterprise Linux8.3 インストール用ISOダウンロード済み。
 
+## 仮想マシンのプロファイル作成
+
+お使いの環境にインストールされている「VirtualBox」を起動</br>
 </br>
 <kbd><img src=./images/virtualbox/001.png /></kbd>
 </br>
 
-
+Red Hat Enterprise Linux8.3 の推奨スペック
 </br>
 <kbd><img src=./images/virtualbox/002.png /></kbd>
 </br>
 
 
+<!--
 </br>
 <kbd><img src=./images/virtualbox/003.png /></kbd>
 </br>
+-->
 
-
+Red Hat Enterprise Linux8.3 の推奨スペックに従い、メモリーを１．５GB以上</br>
 </br>
 <kbd><img src=./images/virtualbox/004.png /></kbd>
 </br>
 
-
+Red Hat Enterprise Linux8.3 の推奨スペックに従い、仮想ハードディスサイズを20GB以上</br>
 </br>
 <kbd><img src=./images/virtualbox/005.png /></kbd>
 </br>
