@@ -7,12 +7,10 @@ VirtualBoxを使ってMac, Windowsに Red Hat Enterprise Linux8.3 の仮想マ�
 ## 仮想マシンのプロファイル作成
 
 お使いの環境にインストールされている「VirtualBox」を起動</br>
-</br>
 <kbd><img src=./images/virtualbox/001.png /></kbd>
 </br>
 
 Red Hat Enterprise Linux8.3 の推奨スペック
-</br>
 <kbd><img src=./images/virtualbox/002.png /></kbd>
 </br>
 
@@ -24,22 +22,19 @@ Red Hat Enterprise Linux8.3 の推奨スペック
 -->
 
 Red Hat Enterprise Linux8.3 の推奨スペックに従い、メモリーを1.5GB以上</br>
-</br>
 <kbd><img src=./images/virtualbox/004.png /></kbd>
 </br>
 
 Red Hat Enterprise Linux8.3 の推奨スペックに従い、仮想ハードディスサイズを20GB以上</br>
-</br>
+また、この仮想マシンのデータを保存する場所を指定</br>
 <kbd><img src=./images/virtualbox/005.png /></kbd>
 </br>
 
 Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブに設定</br>
-</br>
 <kbd><img src=./images/virtualbox/006.png /></kbd>
 </br>
 
 ネットワーク設定</br>
-</br>
 <kbd><img src=./images/virtualbox/007.png /></kbd>
 </br>
 
@@ -50,12 +45,12 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 
 ## Red Hat Enterprise Linux8.3 インストール開始
 
-</br>
+「Install Red Hat Enterprise Linux 8.3」を選択</br>
 <kbd><img src=./images/virtualbox/009.png /></kbd>
 </br>
 
 
-</br>
+このRed Hat Enterprise Linuxで使用する言語を選択</br>
 <kbd><img src=./images/virtualbox/010.png /></kbd>
 </br>
 
@@ -65,7 +60,8 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 </br>
 
 
-</br>
+**インストール概要**</br>
+
 <kbd><img src=./images/virtualbox/012.png /></kbd>
 </br>
 
