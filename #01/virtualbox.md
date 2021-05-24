@@ -48,7 +48,7 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 
 
 「Install Red Hat Enterprise Linux 8.3」を選択</br>
-<kbd><img src=./images/virtualbox/103.png />  <img src=./images/virtualbox/103.png /></kbd>
+<kbd><img src=./images/virtualbox/103.png /> ➜ <img src=./images/virtualbox/103.png /></kbd>
 </br>
 <kbd><img src=./images/virtualbox/103.png /><img src=./images/virtualbox/009.png /></kbd>
 </br>
