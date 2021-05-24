@@ -22,12 +22,12 @@ Red Hat Enterprise Linux8.3 の推奨スペック
 -->
 
 Red Hat Enterprise Linux8.3 の推奨スペックに従い、メモリーを1.5GB以上</br>
-<kbd><img src=./images/virtualbox/004.png /></kbd>
+<kbd><img src=./images/virtualbox/101.png /></kbd>
 </br>
 
 Red Hat Enterprise Linux8.3 の推奨スペックに従い、仮想ハードディスサイズを20GB以上</br>
 また、この仮想マシンのデータを保存する場所を指定</br>
-<kbd><img src=./images/virtualbox/005.png /></kbd>
+<kbd><img src=./images/virtualbox/102.png /></kbd>
 </br>
 
 Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブに設定</br>
@@ -40,16 +40,12 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 
 
 ## Red Hat Enterprise Linux8.3 インストール開始
-*はじめに、ここからVirtualBox*の中で作業していきますが、VirtualBoxから抜けたい場合は左*command*キーを押せばOK</br>
-</br>
+*はじめに、ここからVirtualBox*の中で作業していきますが、VirtualBoxから抜けたい場合は左*command*キーを押せばOK
 
 </br>
 <kbd><img src=./images/virtualbox/008.png /></kbd>
 </br>
 
-## Red Hat Enterprise Linux8.3 インストール開始
-*はじめに、ここからVirtualBox*の中で作業していきますが、VirtualBoxから抜けたい場合は左*command*キーを押せばOK</br>
-</br>
 
 「Install Red Hat Enterprise Linux 8.3」を選択</br>
 <kbd><img src=./images/virtualbox/009.png /></kbd>
