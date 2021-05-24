@@ -39,6 +39,10 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 </br>
 
 
+## Red Hat Enterprise Linux8.3 インストール開始
+*はじめに、ここからVirtualBox*の中で作業していきますが、VirtualBoxから抜けたい場合は左*command*キーを押せばOK</br>
+</br>
+
 </br>
 <kbd><img src=./images/virtualbox/008.png /></kbd>
 </br>
