@@ -51,11 +51,11 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 <kbd><img src=./images/virtualbox/103.png /> <img src=./images/virtualbox/009.png /></kbd>
 </br>
 
-
+<!--
 </br>
 <kbd><img src=./images/virtualbox/010.png /></kbd>
 </br>
-
+-->
 
 このRed Hat Enterprise Linuxで使用する言語を選択</br>
 <kbd><img src=./images/virtualbox/011.png /></kbd>
