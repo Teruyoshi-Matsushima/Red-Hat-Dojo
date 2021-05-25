@@ -277,7 +277,7 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 
 ホストオンリーアダプターを有効化</br>
 </br>
-<kbd><img src=./images/virtualbox/170.png /></kbd>
+<kbd><img src=./images/virtualbox/171.png /></kbd>
 </br>
 
 
@@ -312,7 +312,7 @@ NATについては、アドレス変換しているだけなので仮想NICは�
 </br>
 <kbd><img src=./images/virtualbox/046.png /></kbd>
 </br>
--->
+
 
 
 ホストオンリーアダプターの仮想NIC割当範囲を確認</br>
@@ -390,10 +390,11 @@ NATについては、アドレス変換しているだけなので仮想NICは�
 </br>
 <kbd><img src=./images/virtualbox/071.png /></kbd>
 </br>
+-->
 
 
 </br>
-<kbd><img src=./images/virtualbox/072.png /></kbd>
+<kbd><img src=./images/virtualbox/１６９.png /></kbd>
 </br>
 
 
