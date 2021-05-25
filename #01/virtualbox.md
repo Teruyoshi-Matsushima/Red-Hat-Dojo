@@ -259,6 +259,13 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 <kbd><img src=./images/virtualbox/042.png /></kbd>
 </br>
 
+
+「初めて使う方へ」は［x］で閉じる
+</br>
+<kbd><img src=./images/virtualbox/0163.png /></kbd>
+</br>
+
+
 ## ネットワーク設定
 
 ターミナルを起動するため、左上の[アクティビティ]－[端末]をクリック</br>
