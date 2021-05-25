@@ -100,10 +100,10 @@ NATに設定したネットワークアダプタのMACアドレスとRed Hat Ent
 </br>
 
 また、初期状態ではこのマシンはネットワークから切断されているので、この段階でネットワークに接続しておく。</br>
-＊図ではボタンが半分隠れています。
+＊青枠で囲まれたところにボタンが半分隠れています。
 <kbd><img src=./images/virtualbox/150.png /></kbd>
 </br>
-これでDHCPが有効であればネットワーク接続のボタンをONにするだけで済む。</br>
+ネットワーク接続のボタンをONにしておき、DHCPが有効であれば自動的にネットワークへ接続できる。</br>
 またこの画面でホスト名も決定。サブスクリプション登録時にマシンを見分けやすくなる。</br>
 
 ④rootのパスワード作成</br>
@@ -117,6 +117,7 @@ NATに設定したネットワークアダプタのMACアドレスとRed Hat Ent
 
 
 最後に「インストールの開始(R)」をクリック</br>
+＊私の環境では、１０分ほどで完了しました。</br>
 <kbd><img src=./images/virtualbox/016.png /></kbd>
 </br>
 
@@ -138,12 +139,12 @@ NATに設定したネットワークアダプタのMACアドレスとRed Hat Ent
 
 
 **初期セットアップ**</br>
-<kbd><img src=./images/virtualbox/020.png /></kbd>
+<kbd><img src=./images/virtualbox/151.png /></kbd>
 </br>
 
 
-**ライセンス契約への同意**</br>
-<kbd><img src=./images/virtualbox/021.png /></kbd>
+**①ライセンス契約への同意**</br>
+<kbd><img src=./images/virtualbox/153.png /></kbd>
 </br>
 
 
