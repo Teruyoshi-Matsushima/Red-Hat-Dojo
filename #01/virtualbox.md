@@ -425,47 +425,41 @@ Red Hat Enterprise Linux のターミナルからホストマシンに向けて�
 </br>
 
 
-</br>
-<kbd><img src=./images/virtualbox/078.png /></kbd>
-</br>
-
-
 ## サブスクリプション登録
 まず手始めに利用可能なリポジトリを確認。</br>
-root権限が必要なので、先に設定しておいた**sudo**を使用</br>
-<kbd><img src=./images/hyper-v/057.png /></kbd>
+root権限が必要なので、**sudo**を使用</br>
+<kbd><img src=./images/virtualbox/080.png /></kbd>
 </br>
 
-subscription-managerコマンドでユーザー登録</br>
-文法：```subscription-manager register --username <ユーザー名> --password <パスワード>```</br>
-ユーザー名とパスワードはRed Hat Customer Portalのものを使用</br>
-<kbd><img src=./images/hyper-v/058.png /></kbd>
-</br>
-
+subscription-managerコマンドで以下を登録</br>
+システムのロール：**role**</br>
+文法：```sudo subscription-manager role --set="Red Hat Enterprise Linux Server"```</br>
+サービスレベル：**service-level**</br>
+文法：```sudo subscription-manager service-level --set="Self-Support"```</br>
+用途：**usage**</br>
+文法：```sudo subscription-manager usage --set="Development/Test"```</br>
 システムのロールとサービスレベルを設定し、サブスクリプションをアタッチ</br>
-<kbd><img src=./images/hyper-v/059.png /></kbd>
+文法：```sudo subscription-manager attach```</br>
+<kbd><img src=./images/virtualbox/081.png /></kbd>
 </br>
 
 サブスクリプションのステータス確認</br>
-<kbd><img src=./images/hyper-v/060.png /></kbd>
+<kbd><img src=./images/virtualbox/082.png /></kbd>
 </br>
 
-再度、リポジトリを確認</br>
-<kbd><img src=./images/hyper-v/062.png /></kbd>
-</br>
 
-アップデートパッケージを確認</br>
-<kbd><img src=./images/hyper-v/063.png /></kbd>
+パッケージをアップデート</br>
+<kbd><img src=./images/virtualbox/084_5.png /></kbd>
 </br>
 
 ## Red Hat Customer Portalで登録状況確認
-<kbd><img src=./images/hyper-v/064.png /></kbd>
+<kbd><img src=./images/virtualbox/085.png /></kbd>
 </br>
 
 これじゃぁ、どれを登録したのか分からないですね。でも、5/8に登録したこれをクリック</br>
 
 サブスクリプション登録時にUUIDを入手しているので比較</br>
-<kbd><img src=./images/hyper-v/065.png /></kbd>
+<kbd><img src=./images/virtualbox/086.png /></kbd>
 </br>
 同じですね。</br>
 
