@@ -93,15 +93,17 @@ NAT</br>
 </br>
 
 ③ネットワークとホスト名を設定</br>
-まずNATでインターネットに接続するデバイスを確認するため、VirtualBoxのネットワーク設定を確認
-<kbd><img src=./images/virtualbox/108.png /></kbd>
-</br>
-これにより、NATに設定したネットワークアダプタのMACアドレスとRed Hat Enterprise Linux側のハードウェアアドレスより、
+まずNATでインターネットに接続するデバイスを確認するため、VirtualBoxのネットワーク設定を確認し、</br>
+NATに設定したネットワークアダプタのMACアドレスとRed Hat Enterprise Linux側のハードウェアアドレスより、
 どちらの設定がNATに使用するネットワークアダプタか判別する。
-<kbd><img src=./images/virtualbox/110.png /></kbd>
+<kbd><img src=./images/virtualbox/145.png /></kbd>
 </br>
-これでDHCPが有効であればネットワーク接続のボタンをONにするだけで済む。
-また、同じ画面でホスト名を決定。
+
+また、初期状態ではこのマシンはネットワークから切断されているので、この段階でネットワークに接続しておく。</br>
+<kbd><img src=./images/virtualbox/147.png /></kbd>
+</br>
+これでDHCPが有効であればネットワーク接続のボタンをONにするだけで済む。</br>
+またこの画面でホスト名も決定。サブスクリプション登録時にマシンを見分けやすくなる。</br>
 
 ④rootのパスワード作成</br>
 <kbd><img src=./images/virtualbox/013.png /></kbd>
