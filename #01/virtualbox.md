@@ -64,7 +64,7 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 
 </br>**インストール概要**</br>
 ここでrootのパスワード作成とインストール先デバイスを指定</br>
-<kbd><img src=./images/virtualbox/012.png /></kbd>
+<kbd><img src=./images/virtualbox/012_6.png /></kbd>
 </br>
 
 
