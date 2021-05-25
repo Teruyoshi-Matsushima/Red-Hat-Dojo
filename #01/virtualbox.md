@@ -52,6 +52,11 @@ NAT</br>
 *はじめに、ここからVirtualBox*の中で作業していきますが、VirtualBoxから抜けたい場合は左*command*キーを押せばOK
 
 </br>
+<kbd><img src=./images/virtualbox/008_0.png /></kbd>
+</br>
+
+
+</br>
 <kbd><img src=./images/virtualbox/008.png /></kbd>
 </br>
 
