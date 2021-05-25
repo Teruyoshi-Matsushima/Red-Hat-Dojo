@@ -22,13 +22,21 @@ Red Hat Enterprise Linux8.3 の推奨スペック
 -->
 
 Red Hat Enterprise Linux8.3 の推奨スペックに従い、メモリーを1.5GB以上</br>
-<kbd><img src=./images/virtualbox/101.png /></kbd>
+<kbd><img src=./images/virtualbox/140.png /></kbd>
 </br>
 
 Red Hat Enterprise Linux8.3 の推奨スペックに従い、仮想ハードディスサイズを20GB以上</br>
 また、この仮想マシンのデータを保存する場所を指定</br>
-<kbd><img src=./images/virtualbox/102.png /></kbd>
+<kbd><img src=./images/virtualbox/141.png /></kbd>
 </br>
+
+メモリとディスクサイズ以外の詳細設定を実施するため、「設定」をクリック</br>
+<kbd><img src=./images/virtualbox/142.png /></kbd>
+</br>
+
+
+
+
 
 Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブに設定</br>
 <kbd><img src=./images/virtualbox/006.png /></kbd>
