@@ -63,23 +63,30 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 
 
 </br>**インストール概要**</br>
-ここでrootのパスワード作成とインストール先デバイスを指定</br>
+ここで Red Hat Enterprise Linux の初期設定をしていく</br>
 <kbd><img src=./images/virtualbox/012_6.png /></kbd>
 </br>
 
 
-まずrootのパスワード作成</br>
+①インストール先ディスクを選択</br>
+<kbd><img src=./images/virtualbox/015.png /></kbd>
+</br>
+
+②時刻と日付設定</br>
+<kbd><img src=./images/virtualbox/113.png /></kbd>
+</br>
+
+③ネットワークとホスト名を設定</br>
 <kbd><img src=./images/virtualbox/013.png /></kbd>
 </br>
 
-
+④rootのパスワード作成</br>
+<kbd><img src=./images/virtualbox/013.png /></kbd>
 </br>
-<kbd><img src=./images/virtualbox/014.png /></kbd>
+
+⑤ユーザーの作成
 </br>
-
-
-つぎにインストール先のデバイスを選択するため、赤枠で囲まれたエリアをクリック</br>
-<kbd><img src=./images/virtualbox/015.png /></kbd>
+<kbd><img src=./images/virtualbox/106.png /></kbd>
 </br>
 
 
