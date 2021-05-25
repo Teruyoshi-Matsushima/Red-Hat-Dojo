@@ -453,15 +453,13 @@ subscription-managerコマンドで以下を登録</br>
 </br>
 
 ## Red Hat Customer Portalで登録状況確認
+設定したマシン名が登録されていることを確認</br>
 <kbd><img src=./images/virtualbox/085.png /></kbd>
 </br>
 
-これじゃぁ、どれを登録したのか分からないですね。でも、5/8に登録したこれをクリック</br>
-
-サブスクリプション登録時にUUIDを入手しているので比較</br>
+また、登録情報の詳細を確認</br>
 <kbd><img src=./images/virtualbox/086.png /></kbd>
 </br>
-同じですね。</br>
 
 
 
