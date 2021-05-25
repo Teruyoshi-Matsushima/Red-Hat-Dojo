@@ -10,8 +10,8 @@ Red Hat Enterprise Linux8.3 の推奨スペック
 <kbd><img src=./images/virtualbox/002.png /></kbd>
 </br>
 
-お使いの環境にインストールされている「VirtualBox」を起動</br>
-<kbd><img src=./images/virtualbox/001.png /></kbd>
+お使いの環境にインストールされている「VirtualBox」を起動し、「新規」をクリック</br>
+<kbd><img src=./images/virtualbox/139.png /></kbd>
 </br>
 
 
