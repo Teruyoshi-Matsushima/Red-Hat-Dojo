@@ -179,13 +179,14 @@ Red Hat Enterprise Linux Developer Program に登録したログイン名とパ�
 <kbd><img src=./images/virtualbox/026.png /></kbd>
 </br>
 
-## sudo権限設定
+## 一般権限ユーザーでログイン
 
-rootでログインするため、「アカウントが見つかりませんか？」をクリック</br>
+先の手順で「設定の完了」をクリック後、作成した一般ユーザーでログイン</br>
 <kbd><img src=./images/virtualbox/027.png /></kbd>
 </br>
 
 
+<!--
 ユーザー名:root とし「次へ」</br>
 <kbd><img src=./images/virtualbox/028.png /></kbd>
 </br>
@@ -222,7 +223,7 @@ sudo設定のためターミナルにvisudoと入力</br>
 インストールの途中で作成した一般ユーザー**testuser**でログイン</br>
 <kbd><img src=./images/virtualbox/034.png /></kbd>
 </br>
-
+-->
 
 Welcome!画面でこのＯＳで利用する言語を指定</br>
 <kbd><img src=./images/virtualbox/036.png /></kbd>
