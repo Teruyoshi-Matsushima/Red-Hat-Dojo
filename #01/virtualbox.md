@@ -168,7 +168,7 @@ Red Hat Enterprise Linux Developer Program に登録したログイン名とパ�
 <kbd><img src=./images/virtualbox/161.png /></kbd>
 </br>
 
-
+<!--
 **ユーザーの作成**</br>
 一般ユーザーとして**testuser**を作成</br>
 <kbd><img src=./images/virtualbox/025.png /></kbd>
@@ -178,6 +178,7 @@ Red Hat Enterprise Linux Developer Program に登録したログイン名とパ�
 「設定の完了(F)」をクリック</br>
 <kbd><img src=./images/virtualbox/026.png /></kbd>
 </br>
+-->
 
 ## 一般権限ユーザーでログイン
 
