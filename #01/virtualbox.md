@@ -162,6 +162,11 @@ Red Hat Enterprise Linux Developer Program に登録したログイン名とパ�
 <kbd><img src=./images/virtualbox/162.png /></kbd>
 </br>
 
+</br>
+最後に「設定の完了」をクリック
+</br>
+<kbd><img src=./images/virtualbox/161.png /></kbd>
+</br>
 
 
 **ユーザーの作成**</br>
