@@ -69,23 +69,32 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 
 
 ①インストール先ディスクを選択</br>
-<kbd><img src=./images/virtualbox/015.png /></kbd>
+インストール先の対象デバイスをクリック
+<kbd><img src=./images/virtualbox/104.png /></kbd>
 </br>
 
 ②時刻と日付設定</br>
+地域：アジア、都市：東京 をクリック
 <kbd><img src=./images/virtualbox/113.png /></kbd>
 </br>
 
 ③ネットワークとホスト名を設定</br>
-<kbd><img src=./images/virtualbox/013.png /></kbd>
+まずNATでインターネットに接続するデバイスを確認するため、VirtualBoxのネットワーク設定を確認
+<kbd><img src=./images/virtualbox/108.png /></kbd>
 </br>
+これにより、NATに設定したネットワークアダプタのMACアドレスとRed Hat Enterprise Linux側のハードウェアアドレスより、
+どちらの設定がNATに使用するネットワークアダプタか判別する。
+<kbd><img src=./images/virtualbox/110.png /></kbd>
+</br>
+これでDHCPが有効であればネットワーク接続のボタンをONにするだけで済む。
+また、同じ画面でホスト名を決定。
 
 ④rootのパスワード作成</br>
 <kbd><img src=./images/virtualbox/013.png /></kbd>
 </br>
 
-⑤ユーザーの作成
-</br>
+⑤ユーザーの作成</br>
+こちらで管理者ユーザを作る。管理者として作成したユーザはwheel groupに入り、sudo コマンドを利用できるようになる。</br>
 <kbd><img src=./images/virtualbox/106.png /></kbd>
 </br>
 
