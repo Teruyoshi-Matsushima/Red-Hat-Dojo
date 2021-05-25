@@ -453,6 +453,12 @@ subscription-managerコマンドで以下を登録</br>
 </br>
 
 ## Red Hat Customer Portalで登録状況確認
+
+1. Red Hat Customer Portalにログインする。</br>
+https://access.redhat.com/</br>
+
+2. ページ上の[SUBSCRIPITONS]をクリックする。</br>
+
 設定したマシン名が登録されていることを確認</br>
 <kbd><img src=./images/virtualbox/085.png /></kbd>
 </br>
