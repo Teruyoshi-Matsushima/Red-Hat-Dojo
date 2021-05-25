@@ -266,13 +266,21 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 </br>
 
 
-## ネットワーク設定
+## ホストオンリーアダプター設定
 
 ターミナルを起動するため、左上の[アクティビティ]－[端末]をクリック</br>
 <kbd><img src=./images/virtualbox/052.png /></kbd>
 </br>
 
 
+先の設定で、NATネットワークは「enp0s3」と判明したので、ホストオンリーアダプターは「enp0s8」と分かるが確認</br>
+</br>
+<kbd><img src=./images/virtualbox/164.png /></kbd>
+</br>
+
+
+
+<!--
 ネットワークへの接続状況を確認するためip aとターミナルへ入力</br>
 赤枠で示すように「eth0」ネットワークへは接続されていないようです。</br>
 <kbd><img src=./images/virtualbox/053.png /></kbd>
@@ -303,9 +311,10 @@ NATについては、アドレス変換しているだけなので仮想NICは�
 </br>
 <kbd><img src=./images/virtualbox/046.png /></kbd>
 </br>
+-->
 
 
-ホストオンリーアダプターは仮想NICを使用しているので、その設定を確認</br>
+ホストオンリーアダプターの仮想NIC割当範囲を確認</br>
 まずは、「DHCPサーバー」側から確認し、サーバーアドレスやネットマスク、割り当てるIPアドレスレンジを確認</br>
 <kbd><img src=./images/virtualbox/044.png /></kbd>
 </br>
