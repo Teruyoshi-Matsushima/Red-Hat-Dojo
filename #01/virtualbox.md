@@ -458,6 +458,8 @@ subscription-managerコマンドで以下を登録</br>
 https://access.redhat.com/</br>
 
 2. ページ上の[SUBSCRIPITONS]をクリックする。</br>
+<kbd><img src=./images/virtualbox/089.png /></kbd>
+</br>
 
 設定したマシン名が登録されていることを確認</br>
 <kbd><img src=./images/virtualbox/085.png /></kbd>
