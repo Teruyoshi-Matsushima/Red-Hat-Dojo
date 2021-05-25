@@ -394,7 +394,7 @@ NATについては、アドレス変換しているだけなので仮想NICは�
 
 ## ホストマシンからゲストマシンへのSSH接続
 
-Red Hat Enterprise Linux のネットワークアドレスを確認するため、***ip a***と入力
+Red Hat Enterprise Linux のネットワークアドレスを確認するため、「**ip a**」と入力
 </br>
 <kbd><img src=./images/virtualbox/169.png /></kbd>
 </br>
@@ -406,17 +406,20 @@ Google社が無償で提供している Public DNSサーバー(8.8.8.8)に対し
 </br>
 
 
+ホストマシンのIPアドレスを確認するため、**ホストマシンのターミナル**を開き「**ifconfig**」と入力</br>
+この場合、ホストマシンのIPアドレスが「**192.168.3.4**」と判明する</br>
 </br>
 <kbd><img src=./images/virtualbox/075.png /></kbd>
 </br>
 
-ホストマシンのIPアドレスを確認するため、**
+
+Red Hat Enterprise Linux のターミナルからホストマシンに向けて「**ping 192.168.3.6**」を打つ。
 </br>
 <kbd><img src=./images/virtualbox/076.png /></kbd>
 </br>
 
 
-
+ホストマシンのターミナルを使い、Red Hat Enterprise Linux に SSH 経由でログインする。
 </br>
 <kbd><img src=./images/virtualbox/077.png /></kbd>
 </br>
