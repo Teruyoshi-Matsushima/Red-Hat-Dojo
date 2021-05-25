@@ -39,7 +39,7 @@ Red Hat Enterprise Linux8.3 インストール用ISOを仮想光学ドライブ�
 </br>
 
 ネットワーク設定</br>
-<kbd><img src=./images/virtualbox/007.png /></kbd>
+<kbd><img src=./images/virtualbox/007_3.png /></kbd><kbd><img src=./images/virtualbox/007_4.png /></kbd>
 </br>
 
 
