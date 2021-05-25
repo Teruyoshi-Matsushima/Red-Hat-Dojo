@@ -392,17 +392,15 @@ NATについては、アドレス変換しているだけなので仮想NICは�
 </br>
 -->
 
+## ホストマシンからゲストマシンへのSSH接続
 
+Red Hat Enterprise Linux のネットワークアドレスを確認するため、***ip a***と入力
 </br>
 <kbd><img src=./images/virtualbox/169.png /></kbd>
 </br>
 
 
-</br>
-<kbd><img src=./images/virtualbox/073.png /></kbd>
-</br>
-
-
+Google社が無償で提供している Public DNSサーバー(8.8.8.8)に対してPingを打ち、インターネット接続を確認
 </br>
 <kbd><img src=./images/virtualbox/074.png /></kbd>
 </br>
@@ -412,12 +410,12 @@ NATについては、アドレス変換しているだけなので仮想NICは�
 <kbd><img src=./images/virtualbox/075.png /></kbd>
 </br>
 
-
+ホストマシンのIPアドレスを確認するため、**
 </br>
 <kbd><img src=./images/virtualbox/076.png /></kbd>
 </br>
 
-## ホストマシンからゲストマシンへのSSH接続
+
 
 </br>
 <kbd><img src=./images/virtualbox/077.png /></kbd>
