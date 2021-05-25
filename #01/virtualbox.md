@@ -148,20 +148,20 @@ NATに設定したネットワークアダプタのMACアドレスとRed Hat Ent
 </br>
 
 
-</br>
-<kbd><img src=./images/virtualbox/022.png /></kbd>
-</br>
-
-
-**システム**</br>
-サブスクリプション登録なのだけど、ネットワークに接続されていない状態では失敗</br>
-<kbd><img src=./images/virtualbox/023.png /></kbd>
+**②システム**</br>
+ここでサブスクリプション登録</br>
+<kbd><img src=./images/virtualbox/154.png /></kbd>
 </br>
 
+Red Hat Enterprise Linux Developer Program に登録したログイン名とパスワードを入力し、［登録］をクリック
+</br>
+<kbd><img src=./images/virtualbox/156.png /></kbd>
+</br>
 
 </br>
-<kbd><img src=./images/virtualbox/024.png /></kbd>
+<kbd><img src=./images/virtualbox/162.png /></kbd>
 </br>
+
 
 
 **ユーザーの作成**</br>
