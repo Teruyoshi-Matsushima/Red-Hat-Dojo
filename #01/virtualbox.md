@@ -61,7 +61,7 @@ NAT</br>
 </br>
 
 
-「Install Red Hat Enterprise Linux 8.3」を選択</br>
+「Install Red Hat Enterprise Linux 8.3」を選択するため、*ENTER*キーをクリック</br>
 <kbd><img src=./images/virtualbox/009.png /></kbd>
 </br>
 
