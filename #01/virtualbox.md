@@ -269,16 +269,16 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 
 ## ホストオンリーアダプター設定
 
-ターミナルを起動するため、左上の[アクティビティ]－[端末]をクリック</br>
-<kbd><img src=./images/virtualbox/052.png /></kbd>
-</br>
-
-
 先の設定で、NATネットワークは「enp0s3」と判明したので、ホストオンリーアダプターは「enp0s8」と分かるが確認</br>
 </br>
 <kbd><img src=./images/virtualbox/164.png /></kbd>
 </br>
 
+
+ホストオンリーアダプターを有効化</br>
+</br>
+<kbd><img src=./images/virtualbox/170.png /></kbd>
+</br>
 
 
 <!--
