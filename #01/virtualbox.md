@@ -468,10 +468,3 @@ https://access.redhat.com/</br>
 また、登録情報の詳細を確認</br>
 <kbd><img src=./images/virtualbox/086.png /></kbd>
 </br>
-
-
-
-参考(Special thanks!)
-@yamada-hakase サン</br>
-[Red Hat Developer Programに登録して最大16台までRHELを使おう](https://qiita.com/yamada-hakase/items/dc39d29fda693238d113)
-
