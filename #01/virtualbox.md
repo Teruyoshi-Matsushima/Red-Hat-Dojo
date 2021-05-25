@@ -49,7 +49,7 @@ NAT</br>
 
 
 ## Red Hat Enterprise Linux8.3 インストール開始
-*はじめに、ここからVirtualBox*の中で作業していきますが、VirtualBoxから抜けたい場合は左*command*キーを押せばOK
+これからVirtualBoxの中で作業していきますが、VirtualBoxから抜けたい場合は左*command*キーを押せばOK
 
 </br>
 <kbd><img src=./images/virtualbox/008_0.png /></kbd>
@@ -62,7 +62,7 @@ NAT</br>
 
 
 「Install Red Hat Enterprise Linux 8.3」を選択</br>
-<kbd><img src=./images/virtualbox/103.png /> <img src=./images/virtualbox/009.png /></kbd>
+<kbd><img src=./images/virtualbox/009.png /></kbd>
 </br>
 
 <!--
