@@ -100,13 +100,13 @@ NATに設定したネットワークアダプタのMACアドレスとRed Hat Ent
 </br>
 
 また、初期状態ではこのマシンはネットワークから切断されているので、この段階でネットワークに接続しておく。</br>
-<kbd><img src=./images/virtualbox/148.png /></kbd>
+<kbd><img src=./images/virtualbox/149.png /></kbd>
 </br>
 これでDHCPが有効であればネットワーク接続のボタンをONにするだけで済む。</br>
 またこの画面でホスト名も決定。サブスクリプション登録時にマシンを見分けやすくなる。</br>
 
 ④rootのパスワード作成</br>
-<kbd><img src=./images/virtualbox/013.png /></kbd>
+<kbd><img src=./images/virtualbox/014.png /></kbd>
 </br>
 
 ⑤ユーザーの作成</br>
