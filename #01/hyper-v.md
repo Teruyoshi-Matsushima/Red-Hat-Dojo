@@ -59,7 +59,7 @@ Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているの�
 </br>
 
 #### 仮想ハードディスクの接続
-<kbd><img src=./images/hyper-v/010.png /></kbd>
+<kbd><img src=./images/hyper-v/110.png /></kbd>
 </br>
 
 #### インストールオプション
