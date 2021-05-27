@@ -78,29 +78,60 @@ Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているの�
 <kbd><img src=./images/hyper-v/014.png /></kbd>
 </br>
 
-<kbd><img src=./images/hyper-v/015.png /></kbd>
+</br>
+<kbd><img src=./images/hyper-v/115_1.png /></kbd>
 </br>
 
-
-<kbd><img src=./images/hyper-v/016.png /></kbd>
 </br>
+<kbd><img src=./images/hyper-v/115_3.png /></kbd>
+</br>
+
 
 #### 言語の選択
 <kbd><img src=./images/hyper-v/017.png /></kbd>
 </br>
 
 #### インストール概要
-ここでrootパスワード作成とインストール先デバイスを指定。</br>
-<kbd><img src=./images/hyper-v/018_0.png /></kbd>
+ここで Red Hat Enterprise Linux の初期設定をしていく
+</br>
+<kbd><img src=./images/hyper-v/118_0.png /></kbd>
 </br>
 
-まずrootパスワード作成。</br>
+①インストール先ディスクを選択</br>
+インストール先の対象デバイスをクリック
+</br>
+<kbd><img src=./images/hyper-v/118_1.png /></kbd>
+</br>
+
+②時刻と日付設定</br>
+地域：アジア、都市：東京をクリック
+</br>
+<kbd><img src=./images/hyper-v/118_2.png /></kbd>
+</br>
+
+③ネットワークとホスト名を設定</br>
+Hyper-Vで使う Default Switch は NAT と ホストオンリー の機能を持っている</br>
+この段階でネットワークに接続しておく
+</br>
+<kbd><img src=./images/hyper-v/118_3.png /></kbd>
+</br>
+</br>
+<kbd><img src=./images/hyper-v/118_5.png /></kbd>
+</br>
+ネットワーク接続のボタンをONにしておき、DHCPが有効であれば自動的にネットワークへ接続できる。
+また、この画面でホスト名も決定。サブスクリプション登録時にマシンを見分けやすくなる。
+
+④rootパスワード作成
+</br>
 <kbd><img src=./images/hyper-v/018_1.png /></kbd>
 </br>
 
-次にインストール先デバイスを選択します。赤枠で囲まれたエリアをクリック。</br>
-<kbd><img src=./images/hyper-v/018_2.png /></kbd>
+⑤ユーザーの作成
+ここで管理者ユーザを作る。管理者として作成したユーザはwheel groupに入り、sudo コマンドを利用できるようになる。
 </br>
+<kbd><img src=./images/hyper-v/118_6.png /></kbd>
+</br>
+
 
 最後に「インストールの開始(R)」をクリック</br>
 <kbd><img src=./images/hyper-v/018_3.png /></kbd>
@@ -118,80 +149,46 @@ Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているの�
 [Red Hat Enterprise Linux (・・・)]にカーソルを当て**enter**</br> 
 <kbd><img src=./images/hyper-v/020_0.png /></kbd>
  
- 
-<kbd><img src=./images/hyper-v/020.png /></kbd>
-
-
-
-<kbd><img src=./images/hyper-v/021.png /></kbd>
-
-
-## sudo権限設定
-<!-- <kbd><img src=./images/hyper-v/022.png /></kbd> -->
-
-rootユーザーでログインするため、「アカウントが見つかりませんか？」をクリック</br>
-<kbd><img src=./images/hyper-v/022_1.png /></kbd>
+初期セットアップ
+</br>
+<kbd><img src=./images/hyper-v/121.png /></kbd>
 </br>
 
-ユーザー名：root とし「次へ」</br>
-<kbd><img src=./images/hyper-v/022_2.png /></kbd>
+①ライセンス契約への同意
+</br>
+<kbd><img src=./images/hyper-v/121_1.png /></kbd>
 </br>
 
-root のパスワードを記入し「サインイン」</br>
-<kbd><img src=./images/hyper-v/022_3.png /></kbd>
+②システム</br>
+ここでサブスクリプション登録
+</br>
+<kbd><img src=./images/hyper-v/121_2.png /></kbd>
 </br>
 
-Welcome!画面でこのＯＳで利用する言語を指定</br>
-<kbd><img src=./images/hyper-v/023.png /></kbd>
+</br>
+<kbd><img src=./images/hyper-v/121_3.png /></kbd>
 </br>
 
-また、位置情報サービスに関してオン/オフを決定</br>
-<kbd><img src=./images/hyper-v/025.png /></kbd>
+</br>
+<kbd><img src=./images/hyper-v/121_4.png /></kbd>
 </br>
 
-<kbd><img src=./images/hyper-v/024.png /></kbd>
+</br>
+<kbd><img src=./images/hyper-v/121_5.png /></kbd>
 </br>
 
-「オンラインアカウントへの接続」ですが、まだネットワークへの接続もできていないので「スキップ」</br>
-<kbd><img src=./images/hyper-v/026.png /></kbd>
+</br>
+<kbd><img src=./images/hyper-v/121_6.png /></kbd>
 </br>
 
-使用準備完了！「Red Hat Enterprise Linuxを使い始める(S)」をクリック</br>
-<kbd><img src=./images/hyper-v/027.png /></kbd>
+</br>
+<kbd><img src=./images/hyper-v/121_7.png /></kbd>
 </br>
 
-やっとログインできました。</br>
-<kbd><img src=./images/hyper-v/028.png /></kbd>
+</br>
+<kbd><img src=./images/hyper-v/121_8.png /></kbd>
 </br>
 
-<!--
-<kbd><img src=./images/hyper-v/029.png /></kbd>
-</br>
--->
-    
-ターミナルを起動するため、左上の[アクティビティ]－[端末]をクリック</br>    
-<kbd><img src=./images/hyper-v/030.png /></kbd>
-
-sudo設定のためターミナルに```visudo```と入力。</br>
-<kbd><img src=./images/hyper-v/032.png /></kbd>
-</br>
-
-```:101```と打って101行目に移動</br>
-ちなみに行番号表示は```:set number```</br>
-<kbd><img src=./images/hyper-v/033.png /></kbd>
-</br>
-
-キーボードの```i```を押して編集モードへ移行。101行目に```testuser ALL=(ALL) ALL```と入力。</br>
-キーボードの[ESC]を押して編集モードを終了し、さらにviを保存＆終了するために```:wq```を入力</br>
-<kbd><img src=./images/hyper-v/034.png /></kbd>
-</br>
-
-rootユーザーからログアウト</br>
-<kbd><img src=./images/hyper-v/034_1.png /></kbd>
-</br>
-
-<kbd><img src=./images/hyper-v/034_2.png /></kbd>
-</br>
 
 ## 一般ユーザーでログイン
 インストールの途中で作成した一般ユーザー```testuser```でログイン</br>
@@ -242,99 +239,33 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 <kbd><img src=./images/hyper-v/030.png /></kbd>
 </br>
 
+画面右上のネットワークをクリックし、接続状況を確認</br>
+
+
+
+## ホストマシンからゲストマシンへのSSH接続
+
 ネットワークへの接続状況を確認するため```ip a```とターミナルへ入力</br>
-赤枠で示すように「eth0」ネットワークへは接続されていないようです。</br>
-<kbd><img src=./images/hyper-v/046.png /></kbd>
+Red Hat Enterprise Linux の IP アドレスを確認
+</br>
+<kbd><img src=./images/hyper-v/146.png /></kbd>
 </br>
 
-<!--
-<kbd><img src=./images/hyper-v/047.png /></kbd>
+ホストマシンでpowershellを開き、Red Hat Enterprise Linux に向けて**ping**を打つ
 </br>
--->
-
-右上の[電源ボタン]-[有線オフ]-[接続]をクリック</br>
-この方法では、起動のたびにネットワークコネクションをオンしなければならない。</br>
-そのため以下の方法で起動時に自動的に接続するように設定する。</br>
-<kbd><img src=./images/hyper-v/048.png /></kbd>
+<kbd><img src=./images/hyper-v/154.png /></kbd>
 </br>
 
-ターミナルを起動し```nmtui```を入力し、「NetworkManager」を起動</br>
-<kbd><img src=./images/hyper-v/049.png /></kbd>
+Google社が無償で提供している Public DNSサーバー(8.8.8.8)に対してPingを打ち、インターネット接続を確認
 </br>
-
-十字キーを使い「接続の編集」にカーソルを当て**enter**</br>
-<kbd><img src=./images/hyper-v/049_1.png /></kbd>
-</br>
-
-「eth0」にカーソルを当て、右メニューから「編集」を選択</br>
-<kbd><img src=./images/hyper-v/049_2.png /></kbd>
-</br>
-
-「接続の編集」画面で「自動的に接続する」にカーソルを当て、**スペース**キー</br>
-その後、[OK]にカーソルを当て**enter**
-<kbd><img src=./images/hyper-v/049_3.png /></kbd>
-</br>
-
-
-<kbd><img src=./images/hyper-v/049_4.png /></kbd>
-</br>
-
-「接続をアクティベートする」にカーソルを当て**enter**</br>
-<kbd><img src=./images/hyper-v/049_5.png /></kbd>
-</br>
-
-
-「eth0」にカーソルを当て、「アクティベート」で**enter**</br>
-<kbd><img src=./images/hyper-v/049_6.png /></kbd>
-</br>
-
-
-<kbd><img src=./images/hyper-v/049_7.png /></kbd>
-</br>
-
-
-<kbd><img src=./images/hyper-v/049_8.png /></kbd>
-</br>
-
-「NetworkManager」を終了。その際、「終了」にカーソルを当て右キーで[OK]</br>
-<kbd><img src=./images/hyper-v/049_9.png /></kbd>
-</br>
-
-改めてネットワークへの接続状況を確認するため```ip a```とターミナルへ入力</br>
-赤枠で示すように「eth0」ネットワークへ接続できているようです。</br>
-ゲストOSのIPアドレスは```172.18.50.147```</br>
-**このIPアドレスは接続確認時に利用しますので、どこかメモしておいてください**</br>
-<kbd><img src=./images/hyper-v/049_10.png /></kbd>
-</br>
-
-まずインターネット環境に対して接続を確認。</br>
-Googleが無償で提供している「Google Public DNS」のIPアドレス```8.8.8.8```へping</br>
 <kbd><img src=./images/hyper-v/049_11.png /></kbd>
 </br>
 
-次にローカルホストとの接続を確認。</br>
-先にホストマシンでpowershellを起動し、```ipconfig```によりIPアドレスを確認。</br>
-ホストマシンは```192.168.3.10```</br>
-**このIPアドレスは接続確認時に利用しますので、どこかメモしておいてください**</br>
-<kbd><img src=./images/hyper-v/050.png /></kbd>
+ホストマシンのターミナルを使い、Red Hat Enterprise Linux に SSH 経由でログインする。
+</br>
+<kbd><img src=./images/hyper-v/154_1.png /></kbd>
 </br>
 
-ゲストマシン側からホストマシン側へping</br>
-接続できているようです。</br>
-<kbd><img src=./images/hyper-v/051.png /></kbd>
-</br>
-
-ホストマシン側からゲストマシン側へping</br>
-接続できているようです。</br>
-<kbd><img src=./images/hyper-v/054.png /></kbd>
-</br>
-
-## ホストマシンからゲストマシンへのSSH接続
-ホストマシンのPowerShellからゲストマシンへ以下のコマンドでssh接続</br>
-文法：```ssh <ログインユーザー>@<IPアドレス> ```</br>
-パスワードを入力するとゲストマシンへSSH経由で接続</br>
-<kbd><img src=./images/hyper-v/054_1.png /></kbd>
-</br>
 
 ## PowerShell 文字化け対策
 初期設定のままの PowerShell ではサブスクリプション登録時のメッセージが文字化けするので、その対策</br>
@@ -383,15 +314,69 @@ subscription-managerコマンドでユーザー登録</br>
 </br>
 
 ## Red Hat Customer Portalで登録状況確認
-<kbd><img src=./images/hyper-v/064.png /></kbd>
+
+まず手始めに利用可能なリポジトリを確認。
+root権限が必要なので、sudoを使用
+</br>
+<kbd><img src=./images/hyper-v/157.png /></kbd>
 </br>
 
-これじゃぁ、どれを登録したのか分からないですね。でも、5/8に登録したこれをクリック</br>
-
-サブスクリプション登録時にUUIDを入手しているので比較</br>
-<kbd><img src=./images/hyper-v/065.png /></kbd>
+subscription-managerコマンドで以下を登録</br>
+システムのロール：role</br>
+文法：sudo subscription-manager role --set="Red Hat Enterprise Linux Server"</br>
+サービスレベル：service-level</br>
+文法：sudo subscription-manager service-level --set="Self-Support"</br>
+用途：usage</br>
+文法：sudo subscription-manager usage --set="Development/Test"</br>
+システムのロールとサービスレベルを設定し、サブスクリプションをアタッチ</br>
+文法：sudo subscription-manager attach</br>
 </br>
-同じですね。</br>
+<kbd><img src=./images/hyper-v/158.png /></kbd>
+</br>
+
+サブスクリプションのステータス確認
+</br>
+<kbd><img src=./images/hyper-v/159.png /></kbd>
+</br>
+
+パッケージをアップデート
+</br>
+<kbd><img src=./images/hyper-v/160.png /></kbd>
+</br>
+
+</br>
+<kbd><img src=./images/hyper-v/161.png /></kbd>
+</br>
+
+
+## Red Hat Customer Portalで登録状況確認
+
+1. Red Hat Customer Portalにログインする。</br>
+https://access.redhat.com/</br>
+
+
+2. ページ上の[SUBSCRIPITONS]をクリックする。</br>
+</br>
+<kbd><img src=./images/hyper-v/164.png /></kbd>
+</br>
+
+
+</br>
+<kbd><img src=./images/hyper-v/166.png /></kbd>
+</br>
+
+</br>
+<kbd><img src=./images/hyper-v/168.png /></kbd>
+</br>
+
+また、登録情報の詳細を確認
+</br>
+<kbd><img src=./images/hyper-v/169.png /></kbd>
+</br>
+
+
+## Red Hat Enterprise Linux 終了方法
+
 
 
 参考(Special thanks!)
