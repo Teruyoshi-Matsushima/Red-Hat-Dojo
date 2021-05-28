@@ -39,7 +39,7 @@ Red Hat Enterprise Linux8.3 の推奨スペック
 #### 名前と場所の指定
 ここで適切な仮想マシン名をつけて下さい。</br>
 また、この仮想マシンのデータを別の場所に格納したい場合は、チェックを付けて格納場所を選択する。</br>
-<kbd><img src=./images/hyper-v/006.png /></kbd>
+<kbd><img src=./images/hyper-v/106.png /></kbd>
 </br>
 
 #### 世代の指定
