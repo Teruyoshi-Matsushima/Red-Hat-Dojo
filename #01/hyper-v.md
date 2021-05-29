@@ -84,19 +84,21 @@ Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているの�
 <kbd><img src=./images/hyper-v/115_1.png /></kbd>
 </br>
 
+「Instll Red Hat Enterprise Linux8.3」を選択するため、**ENTER**をクリック
 </br>
 <kbd><img src=./images/hyper-v/115_3.png /></kbd>
 </br>
 
 
-#### 言語の選択
+このRed Hat Enterprise Linuxで使用する言語を選択
+</br>
 <kbd><img src=./images/hyper-v/017.png /></kbd>
 </br>
 
 #### インストール概要
 ここで Red Hat Enterprise Linux の初期設定をしていく
 </br>
-<kbd><img src=./images/hyper-v/118_0.png /></kbd>
+<kbd><img src=./images/hyper-v/118.png /></kbd>
 </br>
 
 ①インストール先ディスクを選択</br>
@@ -123,12 +125,12 @@ Hyper-Vで使う Default Switch は NAT と ホストオンリー の機能を�
 ネットワーク接続のボタンをONにしておき、DHCPが有効であれば自動的にネットワークへ接続できる。
 また、この画面でホスト名も決定。サブスクリプション登録時にマシンを見分けやすくなる。
 
-④rootパスワード作成
+④rootパスワード作成</br>
 </br>
 <kbd><img src=./images/hyper-v/018_1.png /></kbd>
 </br>
 
-⑤ユーザーの作成
+⑤ユーザーの作成</br>
 ここで管理者ユーザを作る。管理者として作成したユーザはwheel groupに入り、sudo コマンドを利用できるようになる。
 </br>
 <kbd><img src=./images/hyper-v/118_6.png /></kbd>
@@ -151,22 +153,24 @@ Hyper-Vで使う Default Switch は NAT と ホストオンリー の機能を�
 [Red Hat Enterprise Linux (・・・)]にカーソルを当て**enter**</br> 
 <kbd><img src=./images/hyper-v/020_0.png /></kbd>
  
-初期セットアップ
+### 初期セットアップ
 </br>
 <kbd><img src=./images/hyper-v/121.png /></kbd>
 </br>
 
-①ライセンス契約への同意
+### ①ライセンス契約への同意
 </br>
 <kbd><img src=./images/hyper-v/121_1.png /></kbd>
 </br>
 
-②システム</br>
+### ②システム
+</br>
 ここでサブスクリプション登録
 </br>
 <kbd><img src=./images/hyper-v/121_2.png /></kbd>
 </br>
 
+Red Hat Enterprise Linux Developer Program に登録したログイン名とパスワードを入力し、［登録］をクリック
 </br>
 <kbd><img src=./images/hyper-v/121_3.png /></kbd>
 </br>
@@ -187,6 +191,7 @@ Hyper-Vで使う Default Switch は NAT と ホストオンリー の機能を�
 <kbd><img src=./images/hyper-v/121_7.png /></kbd>
 </br>
 
+最後に「設定の完了」をクリック
 </br>
 <kbd><img src=./images/hyper-v/121_8.png /></kbd>
 </br>
@@ -197,14 +202,15 @@ Hyper-Vで使う Default Switch は NAT と ホストオンリー の機能を�
 <kbd><img src=./images/hyper-v/035.png /></kbd>
 </br>
 
+<!--
 パスワードを入力</br>
 <kbd><img src=./images/hyper-v/036.png /></kbd>
 </br>
 
 <kbd><img src=./images/hyper-v/037.png /></kbd>
+-->
 
-
-Welcome!画面でこのＯＳで利用する言語を指定</br>
+Welcome!画面でこのＯＳで利用する言語を指定 ＊デフォルトでチェック済み＊</br>
 <kbd><img src=./images/hyper-v/038.png /></kbd>
 </br>
 
@@ -212,14 +218,16 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 <kbd><img src=./images/hyper-v/039.png /></kbd>
 </br>
 
-位置情報サービスに関してオン/オフを決定</br>
+位置情報サービスに関してオン/オフを決定
+</br>
 <kbd><img src=./images/hyper-v/040.png /></kbd>
 </br>
 
 <kbd><img src=./images/hyper-v/041.png /></kbd>
 </br>
 
-「オンラインアカウントへの接続」ですが、まだネットワークへの接続もできていないので「スキップ」</br>
+「オンラインアカウントへの接続」については sandbox 環境ですので敢えて設定はしないので「スキップ」</br>
+＊連携したいアカウントがあればいづれかを選択しログイン＊</br>
 <kbd><img src=./images/hyper-v/042.png /></kbd>
 </br>
 
@@ -237,15 +245,11 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 -->
 
 ## ネットワーク設定
-ターミナルを起動するため、左上の[アクティビティ]－[端末]をクリック</br>
+既に「Default Switch」を使ってネットワークへの接続は完了している</br>
+接続状況を確認するため、ターミナルを起動 **左上の[アクティビティ]－[端末]をクリック**</br>
 <kbd><img src=./images/hyper-v/030.png /></kbd>
 </br>
 
-画面右上のネットワークをクリックし、接続状況を確認</br>
-
-
-
-## ホストマシンからゲストマシンへのSSH接続
 
 ネットワークへの接続状況を確認するため```ip a```とターミナルへ入力</br>
 Red Hat Enterprise Linux の IP アドレスを確認
@@ -253,32 +257,36 @@ Red Hat Enterprise Linux の IP アドレスを確認
 <kbd><img src=./images/hyper-v/146.png /></kbd>
 </br>
 
-ホストマシンでpowershellを開き、Red Hat Enterprise Linux に向けて**ping**を打つ
-</br>
-<kbd><img src=./images/hyper-v/154.png /></kbd>
-</br>
-
 Google社が無償で提供している Public DNSサーバー(8.8.8.8)に対してPingを打ち、インターネット接続を確認
 </br>
 <kbd><img src=./images/hyper-v/049_11.png /></kbd>
 </br>
 
+
+ホストマシンでpowershellを開き、Red Hat Enterprise Linux に向けて**ping**を打つ
+</br>
+<kbd><img src=./images/hyper-v/154.png /></kbd>
+</br>
+
+
+## ホストマシンからゲストマシンへのSSH接続
+</br>
 ホストマシンのターミナルを使い、Red Hat Enterprise Linux に SSH 経由でログインする。
 </br>
 <kbd><img src=./images/hyper-v/154_1.png /></kbd>
 </br>
 
 
-## PowerShell 文字化け対策
+## ここでPowerShell 文字化け対策
 初期設定のままの PowerShell ではサブスクリプション登録時のメッセージが文字化けするので、その対策</br>
 文字化けの原因は、初期状態のPowerShellの文字コードは**US-ASCII**。一方、Linux側は**UTF-8**であるためです。</br>
-そのため、PowerShellを**UTF-8**対応し、表示フォントも対応させます。</br>
+そのため、PowerShell側で**UTF-8**対応し、表示フォントも対応させます。</br>
 PowerShellのプロパティを開く</br>
 <kbd><img src=./images/hyper-v/055_1.png /></kbd>
 </br>
 
-[ショートカット]-[リンク先]のパスに以下を追記し、起動時に```chcp```コマンドで**UTF-8(65001)**対応</br>
-``` -NoExit -Command "chcp 65001"```</br>
+[ショートカット]タブ-[リンク先]のパスに以下を追記し、起動時に```chcp```コマンドで**UTF-8(65001)**対応</br>
+追加コマンド **``` -NoExit -Command "chcp 65001"```**</br>
 <kbd><img src=./images/hyper-v/055_2.png /></kbd>
 </br>
 
