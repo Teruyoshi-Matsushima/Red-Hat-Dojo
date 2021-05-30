@@ -264,9 +264,9 @@ Google社が無償で提供している Public DNSサーバー(8.8.8.8)に対し
 ## ホストマシンからゲストマシンへのSSH接続
 </br>
 ホストマシンのターミナルを使い、Red Hat Enterprise Linux に SSH 経由でログイン</br>
-コマンド：**```ssh testuser@172.31.95.94```**</br>
-初回はこのアドレスに対して本当にSSH接続をするのか聞いてくるので**```yes```**と打つ</br>
-接続に成功するとプロンプトが**```ユーザー名@マシン名```**となる(この場合**```testuser@tmrhel83w```**)</br>
+コマンド： **```ssh testuser@172.31.95.94```** </br>
+初回はこのアドレスに対して本当にSSH接続をするのか聞いてくるので **```yes```** と打つ</br>
+接続に成功するとプロンプトが **```ユーザー名@マシン名```** となる(この場合 **```testuser@tmrhel83w```** )</br>
 </br>
 <kbd><img src=./images/hyper-v/154_1.png /></kbd>
 </br>
@@ -280,8 +280,8 @@ PowerShellのプロパティを開く</br>
 <kbd><img src=./images/hyper-v/055_1.png /></kbd>
 </br>
 
-[ショートカット]タブ-[リンク先]のパスに以下を追記し、起動時に```chcp```コマンドで**UTF-8(65001)**対応</br>
-追加コマンド **``` -NoExit -Command "chcp 65001"```**</br>
+[ショートカット]タブ-[リンク先]のパスに以下を追記し、起動時に```chcp```コマンドで **UTF-8(65001)** 対応</br>
+追加コマンド **``` -NoExit -Command "chcp 65001"```** </br>
 <kbd><img src=./images/hyper-v/055_2.png /></kbd>
 </br>
 
@@ -293,33 +293,33 @@ PowerShellのプロパティを開く</br>
 ## サブスクリプション登録
 まず手始めに利用可能なリポジトリを確認</br>
 root権限が必要なので、sudoを使用
+コマンド： **```sudo dnf repolist```**
 </br>
 <kbd><img src=./images/hyper-v/157.png /></kbd>
 </br>
 
 subscription-managerコマンドで以下を登録</br>
 システムのロール：role</br>
-文法：sudo subscription-manager role --set="Red Hat Enterprise Linux Server"</br>
+コマンド： **```sudo subscription-manager role --set="Red Hat Enterprise Linux Server" ```** </br>
 サービスレベル：service-level</br>
-文法：sudo subscription-manager service-level --set="Self-Support"</br>
+コマンド： **```sudo subscription-manager service-level --set="Self-Support" ```** </br>
 用途：usage</br>
-文法：sudo subscription-manager usage --set="Development/Test"</br>
+コマンド： **```sudo subscription-manager usage --set="Development/Test" ```** </br>
 システムのロールとサービスレベルを設定し、サブスクリプションをアタッチ</br>
-文法：sudo subscription-manager attach</br>
+コマンド： **```sudo subscription-manager attach ```** </br>
 </br>
 <kbd><img src=./images/hyper-v/158.png /></kbd>
 </br>
 
 サブスクリプションのステータス確認
-</br>
+コマンド： **```sudo subscription-manager list ```** </br>
 <kbd><img src=./images/hyper-v/159.png /></kbd>
 </br>
 
 パッケージをアップデート
-</br>
+コマンド： **```sudo dnf check-update ```** </br>
 <kbd><img src=./images/hyper-v/160_2.png /></kbd>
 </br>
-
 
 
 ## Red Hat Customer Portalで登録状況確認
@@ -331,14 +331,11 @@ https://access.redhat.com/</br>
 2. ページ上の[SUBSCRIPITONS]をクリック
 <kbd><img src=./images/hyper-v/164.png /></kbd>
 </br>
-</br>
-設定したマシン名が登録されていることを確認</br>
-</br>
-<kbd><img src=./images/hyper-v/166.png /></kbd>
-</br>
 
+設定したマシン名が登録されていることを確認</br>
+適応しているサブスクリプションを選択すると、今回構築したマシンが登録されている</br>
 </br>
-<kbd><img src=./images/hyper-v/168.png /></kbd>
+<kbd><img src=./images/hyper-v/168_1.png /></kbd>
 </br>
 
 また、登録情報の詳細を確認
