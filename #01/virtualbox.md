@@ -111,7 +111,8 @@ NAT</br>
 
 ##### NATとホストオンリーアダプターデバイスを識別する方法
 VirtualBoxのネットワーク設定を確認し、NATに設定したネットワークアダプタのMACアドレスとRed Hat Enterprise Linux側のハードウェアアドレスより、
-どちらの設定がNATに使用するネットワークアダプタか判別する。
+どちらの設定がNATに使用するネットワークアダプタか判別する。</br>
+この図から、enp0s3のインターフェースがNATであることがわかる。</br>
 <kbd><img src=./images/virtualbox/145.png /></kbd>
 </br>
 
