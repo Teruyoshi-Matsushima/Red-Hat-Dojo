@@ -82,17 +82,17 @@ NAT</br>
 </br>
 
 
-①インストール先ディスクを選択</br>
+#### ①インストール先ディスクを選択</br>
 インストール先の対象デバイスをクリック
 <kbd><img src=./images/virtualbox/104.png /></kbd>
 </br>
 
-②時刻と日付設定</br>
+#### ②時刻と日付設定</br>
 地域：アジア、都市：東京 をクリック
 <kbd><img src=./images/virtualbox/113.png /></kbd>
 </br>
 
-③ネットワークとホスト名を設定</br>
+#### ③ネットワークとホスト名を設定</br>
 まずNATでインターネットに接続するデバイスを確認するため、VirtualBoxのネットワーク設定を確認し、</br>
 NATに設定したネットワークアダプタのMACアドレスとRed Hat Enterprise Linux側のハードウェアアドレスより、
 どちらの設定がNATに使用するネットワークアダプタか判別する。
@@ -106,11 +106,11 @@ NATに設定したネットワークアダプタのMACアドレスとRed Hat Ent
 ネットワーク接続のボタンをONにしておき、DHCPが有効であれば自動的にネットワークへ接続できる。</br>
 またこの画面でホスト名も決定。サブスクリプション登録時にマシンを見分けやすくなる。</br>
 
-④rootのパスワード作成</br>
+#### ④rootのパスワード作成</br>
 <kbd><img src=./images/virtualbox/014.png /></kbd>
 </br>
 
-⑤ユーザーの作成</br>
+#### ⑤ユーザーの作成</br>
 こちらで管理者ユーザを作る。管理者として作成したユーザはwheel groupに入り、sudo コマンドを利用できるようになる。</br>
 <kbd><img src=./images/virtualbox/106.png /></kbd>
 </br>
@@ -138,17 +138,17 @@ NATに設定したネットワークアダプタのMACアドレスとRed Hat Ent
 </br>
 
 
-**初期セットアップ**</br>
+#### 初期セットアップ</br>
 <kbd><img src=./images/virtualbox/151.png /></kbd>
 </br>
 
 
-**①ライセンス契約への同意**</br>
+#### ①ライセンス契約への同意</br>
 <kbd><img src=./images/virtualbox/153.png /></kbd>
 </br>
 
 
-**②システム**</br>
+#### ②システム</br>
 ここでサブスクリプション登録</br>
 <kbd><img src=./images/virtualbox/154.png /></kbd>
 </br>
