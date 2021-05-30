@@ -177,6 +177,7 @@ Red Hat Enterprise Linux Developer Program に登録したログイン名とパ�
 <kbd><img src=./images/hyper-v/121_3.png /></kbd>
 </br>
 
+途中、割り当てるサブスクリプション「Red Hat Developer Subscription for Individuals」を確認し、「割り当て」をクリック</br>
 </br>
 <kbd><img src=./images/hyper-v/121_9.png /></kbd>
 </br>
@@ -209,12 +210,9 @@ Welcome!画面でこのＯＳで利用する言語を指定 ＊デフォルト�
 <kbd><img src=./images/hyper-v/039.png /></kbd>
 </br>
 
-位置情報サービスに関してオン/オフを決定
+位置情報サービスに関してオン/オフを決定(どちらでも良い)
 </br>
-<kbd><img src=./images/hyper-v/040.png /></kbd>
-</br>
-
-<kbd><img src=./images/hyper-v/041.png /></kbd>
+<kbd><img src=./images/hyper-v/041_1.png /></kbd>
 </br>
 
 「オンラインアカウントへの接続」については sandbox 環境ですので敢えて設定はしないので「スキップ」</br>
@@ -226,7 +224,7 @@ Welcome!画面でこのＯＳで利用する言語を指定 ＊デフォルト�
 <kbd><img src=./images/hyper-v/043.png /></kbd>
 </br>
 
-「初めて使う方へ」画面ですが右上の[×]をクリック</br>
+「初めて使う方へ」画面では、右上の[×]をクリック</br>
 <kbd><img src=./images/hyper-v/044.png /></kbd>
 </br>
 
@@ -254,7 +252,7 @@ Google社が無償で提供している Public DNSサーバー(8.8.8.8)に対し
 </br>
 
 
-ホストマシンでpowershellを開き、Red Hat Enterprise Linux に向けて**ping**を打つ
+ホストマシンでpowershellを開き、Red Hat Enterprise Linux（この場合のIPアドレスは 172.31.95.94） に向けて**ping**を打つ
 </br>
 <kbd><img src=./images/hyper-v/154.png /></kbd>
 </br>
@@ -262,7 +260,10 @@ Google社が無償で提供している Public DNSサーバー(8.8.8.8)に対し
 
 ## ホストマシンからゲストマシンへのSSH接続
 </br>
-ホストマシンのターミナルを使い、Red Hat Enterprise Linux に SSH 経由でログインする。
+ホストマシンのターミナルを使い、Red Hat Enterprise Linux に SSH 経由でログイン</br>
+コマンド：**```ssh testuser@172.31.95.94```**</br>
+初回はこのアドレスに対して本当にSSH接続をするのか聞いてくるので**```yes```**と打つ</br>
+接続に成功するとプロンプトが**```ユーザー名@マシン名```**となる(この場合**```testuser@tmrhel83w```**)</br>
 </br>
 <kbd><img src=./images/hyper-v/154_1.png /></kbd>
 </br>
@@ -313,12 +314,9 @@ subscription-managerコマンドで以下を登録</br>
 
 パッケージをアップデート
 </br>
-<kbd><img src=./images/hyper-v/160.png /></kbd>
+<kbd><img src=./images/hyper-v/160_2.png /></kbd>
 </br>
 
-</br>
-<kbd><img src=./images/hyper-v/161.png /></kbd>
-</br>
 
 
 ## Red Hat Customer Portalで登録状況確認
@@ -328,10 +326,9 @@ https://access.redhat.com/</br>
 
 
 2. ページ上の[SUBSCRIPITONS]をクリック
-</br>
 <kbd><img src=./images/hyper-v/164.png /></kbd>
 </br>
-
+</br>
 設定したマシン名が登録されていることを確認</br>
 </br>
 <kbd><img src=./images/hyper-v/166.png /></kbd>
