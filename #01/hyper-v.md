@@ -345,8 +345,9 @@ https://access.redhat.com/</br>
 
 
 ## Red Hat Enterprise Linux 終了方法
-ターミナルに**```sudo shutdown -h now```**を入力
+ターミナルに **```sudo shutdown -h now```** を入力
 
+</br>
 
 参考(Special thanks!)
 @___monta___ サン</br>
