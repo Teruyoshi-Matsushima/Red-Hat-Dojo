@@ -1,8 +1,8 @@
 # Hyper-V編
 
-Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Linux8.3 の仮想マシンを作成します。
+Windows 7/8/10 に搭載されているHyper-Vを使って Red Hat Enterprise Linux8.3 の仮想マシンを作成します。</br>
 インストール後、sudo設定・ネットワーク設定・サブスクリプション登録までを実施し、 Red Hat Enterprise Linux8.3 マシンとして利用できる環境を構築します。</br>
-前提：VirtualBoxインストール済み、Red Hat Enterprise Linux8.3 インストール用ISOダウンロード済み。</br>
+**前提**：VirtualBoxインストール済み、Red Hat Enterprise Linux8.3 インストール用ISOダウンロード済み。</br>
 
 ## 仮想マシンのプロファイル作成
 
@@ -77,9 +77,12 @@ Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているの�
 </br>
 
 ## Red Hat Enterprise Linux8.3 インストール開始
+作成したプロファイルをダブルクリック
+</br>
 <kbd><img src=./images/hyper-v/014.png /></kbd>
 </br>
 
+「起動」をクリック
 </br>
 <kbd><img src=./images/hyper-v/115_1.png /></kbd>
 </br>
