@@ -134,7 +134,8 @@ Hyper-Vで使う Default Switch は NAT と ホストオンリー の機能が�
 </br>
 
 #### ⑤ユーザーの作成
-ここでユーザを作る。管理者として作成したユーザはwheel groupに入り、sudo コマンドを利用できるようになる。
+「このユーザーを管理者にする」にチェックを入れ、管理者権限を持つユーザを作成</br>
+管理者として作成したユーザはwheel groupに入り、sudo コマンドを利用できるようになる</br>
 </br>
 <kbd><img src=./images/hyper-v/118_10.png /></kbd>
 </br>
