@@ -235,24 +235,20 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 </br>
 <kbd><img src=./images/virtualbox/037.png /></kbd>
 </br>
+</br>
 
-
-位置情報サービスに関してオン/オフを決定</br>
-<kbd><img src=./images/virtualbox/038.png /></kbd>
+位置情報サービスに関してオン/オフを決定(どちらでも良い)</br>
+<kbd><img src=./images/virtualbox/038_1.png /></kbd>
 </br>
 
 
-「オンラインアカウントへの接続」ですが、まだネットワークへの接続もできていないので「スキップ」</br>
-<kbd><img src=./images/virtualbox/039.png /></kbd>
-</br>
-
-
-使用準備完了！「Red Hat Enterprise Linuxを使い始める(S)」をクリック</br>
+「オンラインアカウントへの接続」については sandbox 環境ですので敢えて設定はしないので「スキップ」</br>
+＊連携したいアカウントがあればいづれかを選択しログイン＊</br>
 <kbd><img src=./images/virtualbox/040.png /></kbd>
 </br>
 
 
-</br>
+使用準備完了！「Red Hat Enterprise Linuxを使い始める(S)」をクリック</br>
 <kbd><img src=./images/virtualbox/041.png /></kbd>
 </br>
 
