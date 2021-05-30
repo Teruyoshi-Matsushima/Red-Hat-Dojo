@@ -258,7 +258,7 @@ Welcome!画面でこのＯＳで利用する言語を指定</br>
 </br>
 
 
-「初めて使う方へ」は［x］で閉じる
+「初めて使う方へ」画面では、右上の[×]をクリック
 </br>
 <kbd><img src=./images/virtualbox/163.png /></kbd>
 </br>
@@ -402,7 +402,7 @@ Google社が無償で提供している Public DNSサーバー(8.8.8.8)に対し
 <kbd><img src=./images/virtualbox/074.png /></kbd>
 </br>
 
-
+<!--
 ホストマシンのIPアドレスを確認するため、**ホストマシンのターミナル**を開き「**ifconfig**」と入力</br>
 この場合、ホストマシンのIPアドレスが「**192.168.3.4**」と判明する</br>
 </br>
@@ -414,9 +414,12 @@ Red Hat Enterprise Linux のターミナルからホストマシンに向けて�
 </br>
 <kbd><img src=./images/virtualbox/076.png /></kbd>
 </br>
+-->
 
-
-ホストマシンのターミナルを使い、Red Hat Enterprise Linux に SSH 経由でログインする。
+ホストマシンのターミナルを使い、Red Hat Enterprise Linux に SSH 経由でログイン</br>
+コマンド： **``` ssh testuser@172.31.95.94 ```** </br>
+初回はこのアドレスに対して本当にSSH接続をするのか聞いてくるので **yes** と打つ
+接続に成功するとプロンプトが ユーザー名@マシン名 となる(この場合 **testuser@tmrhel83** )
 </br>
 <kbd><img src=./images/virtualbox/077.png /></kbd>
 </br>
