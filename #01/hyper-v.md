@@ -10,7 +10,8 @@ Red Hat Enterprise Linux8.3 の推奨スペック
 <kbd><img src=./images/virtualbox/002.png /></kbd>
 </br>
 
-[スタート]-[Windows管理ツール]-[Hyper-V マネージャー]をクリックし、Hyper-Vマネージャーを起動</br>
+[スタート]-[Windows管理ツール]-[Hyper-V マネージャー]をクリックし、Hyper-Vマネージャーを起動
+</br>
 <kbd><img src=./images/hyper-v/000.png /></kbd>
 </br>
 
@@ -45,11 +46,9 @@ Red Hat Enterprise Linux8.3 の推奨スペック
 #### 世代の指定
 世代の違いはUEFIのセキュアブートへの対応しているか否か。</br>
 Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているので、第二世代でもインストール可。</br>
-ただし、Hyper-Vのデフォルト設定を以下のように変更すること。</br>
-「ハードウェア」→「セキュリティ」→「セキュアブート」</br>
+その場合、Hyper-Vのデフォルト設定を以下のように変更すること。「ハードウェア」→「セキュリティ」→「セキュアブート」</br>
+[CentOSをHyper-V上に入れるときのポイント（第一世代 vs 第二世代)](https://qiita.com/___monta___/items/7c180e56282e3f1c87d0)参照
 <kbd><img src=./images/hyper-v/007.png /></kbd>
-</br>
-[CentOSをHyper-V上に入れるときのポイント（第一世代 vs 第二世代)](https://qiita.com/___monta___/items/7c180e56282e3f1c87d0)
 </br>
 
 #### メモリの割り当て
@@ -61,18 +60,21 @@ Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているの�
 </br>
 
 #### 仮想ハードディスクの接続
+仮想ハードディスクをホストマシンのどこに格納するのか指定</br>
+また Red Hat Enterprise Linux8.3 の推奨サイズは20GBなので、それ以上のサイズを設定</br>
 <kbd><img src=./images/hyper-v/110.png /></kbd>
 </br>
 
 #### インストールオプション
+ここでRed Hat Enterprise Linux8.3のインストールメディアを指定</br>
 <kbd><img src=./images/hyper-v/011.png /></kbd>
 </br>
 
 #### 仮想マシンの新規作成ウィザードの完了
+これで仮想マシンのプロファイル作成完了
 <kbd><img src=./images/hyper-v/012.png /></kbd>
 </br>
 
-#### 
 <kbd><img src=./images/hyper-v/013.png /></kbd>
 </br>
 
@@ -87,7 +89,7 @@ Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているの�
 <kbd><img src=./images/hyper-v/115_1.png /></kbd>
 </br>
 
-「Instll Red Hat Enterprise Linux8.3」を選択するため**ENTER**をクリック
+「Instll Red Hat Enterprise Linux8.3」を選択するため**ENTER**入力
 </br>
 <kbd><img src=./images/hyper-v/115_3.png /></kbd>
 </br>
@@ -117,23 +119,24 @@ Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているの�
 </br>
 
 #### ③ネットワークとホスト名を設定</br>
-Hyper-Vで使う Default Switch は NAT と ホストオンリー の機能を持っている</br>
-この段階でネットワークに接続しておく
+Hyper-Vで使う Default Switch は NAT と ホストオンリー の機能があり、</br>
+この段階でネットワークに接続しておく</br>
+また、この画面でホスト名も決定。サブスクリプション登録時にマシンを見分けやすくなる。
 </br>
 <kbd><img src=./images/hyper-v/118_6.png /></kbd>
 </br>
 ネットワーク接続のボタンをONにしておき、DHCPが有効であれば自動的にネットワークへ接続できる。
-また、この画面でホスト名も決定。サブスクリプション登録時にマシンを見分けやすくなる。
+
 
 #### ④rootパスワード作成
-</br>
+ここでrootのパスワード決めておく</br>
 <kbd><img src=./images/hyper-v/018_1.png /></kbd>
 </br>
 
-#### ⑤ユーザーの作成</br>
-ここで管理者ユーザを作る。管理者として作成したユーザはwheel groupに入り、sudo コマンドを利用できるようになる。
+#### ⑤ユーザーの作成
+ここでユーザを作る。管理者として作成したユーザはwheel groupに入り、sudo コマンドを利用できるようになる。
 </br>
-<kbd><img src=./images/hyper-v/118_6.png /></kbd>
+<kbd><img src=./images/hyper-v/118_10.png /></kbd>
 </br>
 
 
