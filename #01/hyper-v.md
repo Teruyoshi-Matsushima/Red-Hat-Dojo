@@ -296,36 +296,7 @@ PowerShellのプロパティを開く</br>
 </br>
 
 ## サブスクリプション登録
-まず手始めに利用可能なリポジトリを確認。</br>
-root権限が必要なので、先に設定しておいた**sudo**を使用</br>
-<kbd><img src=./images/hyper-v/057.png /></kbd>
-</br>
-
-subscription-managerコマンドでユーザー登録</br>
-文法：```subscription-manager register --username <ユーザー名> --password <パスワード>```</br>
-ユーザー名とパスワードはRed Hat Customer Portalのものを使用</br>
-<kbd><img src=./images/hyper-v/058.png /></kbd>
-</br>
-
-システムのロールとサービスレベルを設定し、サブスクリプションをアタッチ</br>
-<kbd><img src=./images/hyper-v/059.png /></kbd>
-</br>
-
-サブスクリプションのステータス確認</br>
-<kbd><img src=./images/hyper-v/060.png /></kbd>
-</br>
-
-再度、リポジトリを確認</br>
-<kbd><img src=./images/hyper-v/062.png /></kbd>
-</br>
-
-アップデートパッケージを確認</br>
-<kbd><img src=./images/hyper-v/063.png /></kbd>
-</br>
-
-## Red Hat Customer Portalで登録状況確認
-
-まず手始めに利用可能なリポジトリを確認。
+まず手始めに利用可能なリポジトリを確認</br>
 root権限が必要なので、sudoを使用
 </br>
 <kbd><img src=./images/hyper-v/157.png /></kbd>
@@ -365,12 +336,12 @@ subscription-managerコマンドで以下を登録</br>
 https://access.redhat.com/</br>
 
 
-2. ページ上の[SUBSCRIPITONS]をクリックする。</br>
+2. ページ上の[SUBSCRIPITONS]をクリック
 </br>
 <kbd><img src=./images/hyper-v/164.png /></kbd>
 </br>
 
-
+設定したマシン名が登録されていることを確認</br>
 </br>
 <kbd><img src=./images/hyper-v/166.png /></kbd>
 </br>
@@ -386,7 +357,7 @@ https://access.redhat.com/</br>
 
 
 ## Red Hat Enterprise Linux 終了方法
-
+ターミナルに**```sudo shutdown -h now```**を入力
 
 
 参考(Special thanks!)
