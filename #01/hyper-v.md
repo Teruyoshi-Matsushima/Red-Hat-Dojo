@@ -87,7 +87,7 @@ Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているの�
 <kbd><img src=./images/hyper-v/115_1.png /></kbd>
 </br>
 
-「Instll Red Hat Enterprise Linux8.3」を選択するため、**ENTER**をクリック
+「Instll Red Hat Enterprise Linux8.3」を選択するため**ENTER**をクリック
 </br>
 <kbd><img src=./images/hyper-v/115_3.png /></kbd>
 </br>
@@ -104,36 +104,33 @@ Red Hat Enterprise Linux8.3はUEFIセキュアブートに対応しているの�
 <kbd><img src=./images/hyper-v/118.png /></kbd>
 </br>
 
-①インストール先ディスクを選択</br>
+#### ①インストール先ディスクを選択</br>
 インストール先の対象デバイスをクリック
 </br>
 <kbd><img src=./images/hyper-v/118_1.png /></kbd>
 </br>
 
-②時刻と日付設定</br>
+#### ②時刻と日付設定</br>
 地域：アジア、都市：東京をクリック
 </br>
 <kbd><img src=./images/hyper-v/118_2.png /></kbd>
 </br>
 
-③ネットワークとホスト名を設定</br>
+#### ③ネットワークとホスト名を設定</br>
 Hyper-Vで使う Default Switch は NAT と ホストオンリー の機能を持っている</br>
 この段階でネットワークに接続しておく
 </br>
-<kbd><img src=./images/hyper-v/118_3.png /></kbd>
-</br>
-</br>
-<kbd><img src=./images/hyper-v/118_5.png /></kbd>
+<kbd><img src=./images/hyper-v/118_6.png /></kbd>
 </br>
 ネットワーク接続のボタンをONにしておき、DHCPが有効であれば自動的にネットワークへ接続できる。
 また、この画面でホスト名も決定。サブスクリプション登録時にマシンを見分けやすくなる。
 
-④rootパスワード作成</br>
+#### ④rootパスワード作成
 </br>
 <kbd><img src=./images/hyper-v/018_1.png /></kbd>
 </br>
 
-⑤ユーザーの作成</br>
+#### ⑤ユーザーの作成</br>
 ここで管理者ユーザを作る。管理者として作成したユーザはwheel groupに入り、sudo コマンドを利用できるようになる。
 </br>
 <kbd><img src=./images/hyper-v/118_6.png /></kbd>
@@ -162,37 +159,28 @@ Hyper-Vで使う Default Switch は NAT と ホストオンリー の機能を�
 </br>
 
 ### ①ライセンス契約への同意
+「ライセンス契約に同意します。」にチェックを入れ、「完了」をクリック
 </br>
 <kbd><img src=./images/hyper-v/121_1.png /></kbd>
 </br>
 
 ### ②システム
-</br>
-ここでサブスクリプション登録
+ここでサブスクリプション登録</br>
+[次へ]</br>
 </br>
 <kbd><img src=./images/hyper-v/121_2.png /></kbd>
 </br>
 
+</br>
 Red Hat Enterprise Linux Developer Program に登録したログイン名とパスワードを入力し、［登録］をクリック
 </br>
 <kbd><img src=./images/hyper-v/121_3.png /></kbd>
 </br>
 
 </br>
-<kbd><img src=./images/hyper-v/121_4.png /></kbd>
+<kbd><img src=./images/hyper-v/121_9.png /></kbd>
 </br>
 
-</br>
-<kbd><img src=./images/hyper-v/121_5.png /></kbd>
-</br>
-
-</br>
-<kbd><img src=./images/hyper-v/121_6.png /></kbd>
-</br>
-
-</br>
-<kbd><img src=./images/hyper-v/121_7.png /></kbd>
-</br>
 
 最後に「設定の完了」をクリック
 </br>
