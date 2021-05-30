@@ -311,12 +311,12 @@ subscription-managerコマンドで以下を登録</br>
 <kbd><img src=./images/hyper-v/158.png /></kbd>
 </br>
 
-サブスクリプションのステータス確認
+サブスクリプションのステータス確認</br>
 コマンド： **```sudo subscription-manager list ```** </br>
 <kbd><img src=./images/hyper-v/159.png /></kbd>
 </br>
 
-パッケージをアップデート
+パッケージをアップデート</br>
 コマンド： **```sudo dnf check-update ```** </br>
 <kbd><img src=./images/hyper-v/160_2.png /></kbd>
 </br>
