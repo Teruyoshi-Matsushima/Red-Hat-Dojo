@@ -437,34 +437,6 @@ Red Hat Enterprise Linux のターミナルからホストマシンに向けて�
 
 
 ## サブスクリプション登録
-まず手始めに利用可能なリポジトリを確認。</br>
-root権限が必要なので、**sudo**を使用</br>
-<kbd><img src=./images/virtualbox/080.png /></kbd>
-</br>
-
-subscription-managerコマンドで以下を登録</br>
-システムのロール：**role**</br>
-文法：```sudo subscription-manager role --set="Red Hat Enterprise Linux Server"```</br>
-サービスレベル：**service-level**</br>
-文法：```sudo subscription-manager service-level --set="Self-Support"```</br>
-用途：**usage**</br>
-文法：```sudo subscription-manager usage --set="Development/Test"```</br>
-システムのロールとサービスレベルを設定し、サブスクリプションをアタッチ</br>
-文法：```sudo subscription-manager attach```</br>
-<kbd><img src=./images/virtualbox/081.png /></kbd>
-</br>
-
-サブスクリプションのステータス確認</br>
-<kbd><img src=./images/virtualbox/082.png /></kbd>
-</br>
-
-
-パッケージをアップデート</br>
-<kbd><img src=./images/virtualbox/084_5.png /></kbd>
-</br>
-
-## Red Hat Customer Portalで登録状況確認
-
 1. Red Hat Customer Portalにログインする。</br>
 https://access.redhat.com/</br>
 
@@ -476,6 +448,27 @@ https://access.redhat.com/</br>
 <kbd><img src=./images/virtualbox/085.png /></kbd>
 </br>
 
-また、登録情報の詳細を確認</br>
-<kbd><img src=./images/virtualbox/086.png /></kbd>
+対象マシンの登録情報詳細を確認</br>
+<kbd><img src=./images/virtualbox/181.png /></kbd>
 </br>
+
+赤枠で囲んだ箇所を変更</br>
+システムのロールとサービスレベルを自動的にサブスクリプションへアタッチ</br>
+Service Level Agreement(SLA)：Self-Support</br>
+Usage Type:Development/Test</br>
+(この変更を加えると、「The intended usage type does not match the attached subscription(s).」となる。</br>
+これは既知の問題のようです。Red Hat Enterprise Linux の動作に影響なし)
+
+</br>
+<kbd><img src=./images/virtualbox/183.png /></kbd>
+</br>
+
+サブスクリプションのステータス確認</br>
+<kbd><img src=./images/virtualbox/082.png /></kbd>
+</br>
+
+
+パッケージをアップデート</br>
+<kbd><img src=./images/virtualbox/084_5.png /></kbd>
+</br>
+
