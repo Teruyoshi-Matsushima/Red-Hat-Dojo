@@ -291,38 +291,6 @@ PowerShellのプロパティを開く</br>
 </br>
 
 ## サブスクリプション登録
-まず手始めに利用可能なリポジトリを確認</br>
-root権限が必要なので、sudoを使用
-コマンド： **```sudo dnf repolist```**
-</br>
-<kbd><img src=./images/hyper-v/157.png /></kbd>
-</br>
-
-subscription-managerコマンドで以下を登録</br>
-システムのロール：role</br>
-コマンド： **```sudo subscription-manager role --set="Red Hat Enterprise Linux Server" ```** </br>
-サービスレベル：service-level</br>
-コマンド： **```sudo subscription-manager service-level --set="Self-Support" ```** </br>
-用途：usage</br>
-コマンド： **```sudo subscription-manager usage --set="Development/Test" ```** </br>
-システムのロールとサービスレベルを設定し、サブスクリプションをアタッチ</br>
-コマンド： **```sudo subscription-manager attach ```** </br>
-</br>
-<kbd><img src=./images/hyper-v/158.png /></kbd>
-</br>
-
-サブスクリプションのステータス確認</br>
-コマンド： **```sudo subscription-manager list ```** </br>
-<kbd><img src=./images/hyper-v/159.png /></kbd>
-</br>
-
-パッケージをアップデート</br>
-コマンド： **```sudo dnf check-update ```** </br>
-<kbd><img src=./images/hyper-v/160_2.png /></kbd>
-</br>
-
-
-## Red Hat Customer Portalで登録状況確認
 
 1. Red Hat Customer Portalにログインする。</br>
 https://access.redhat.com/</br>
@@ -335,14 +303,29 @@ https://access.redhat.com/</br>
 設定したマシン名が登録されていることを確認</br>
 適応しているサブスクリプションを選択すると、今回構築したマシンが登録されている</br>
 </br>
-<kbd><img src=./images/hyper-v/168_1.png /></kbd>
+<kbd><img src=./images/hyper-v/181.png /></kbd>
 </br>
 
-また、登録情報の詳細を確認
+赤枠で囲んだ箇所を変更</br>
+システムのロールとサービスレベルを自動的にサブスクリプションへアタッチ</br>
+Service Level Agreement(SLA)：Self-Support</br>
+Usage Type:Development/Test</br>
+(この変更を加えると、「The intended usage type does not match the attached subscription(s).」となる。</br>
+これは既知の問題のようです。Red Hat Enterprise Linux の動作に影響なし)
+
 </br>
-<kbd><img src=./images/hyper-v/169.png /></kbd>
+<kbd><img src=./images/hyper-v/183.png /></kbd>
 </br>
 
+サブスクリプションのステータス確認</br>
+コマンド： **```sudo subscription-manager list ```** </br>
+<kbd><img src=./images/hyper-v/159.png /></kbd>
+</br>
+
+パッケージをアップデート</br>
+コマンド： **```sudo dnf check-update ```** </br>
+<kbd><img src=./images/hyper-v/160_2.png /></kbd>
+</br>
 
 ## Red Hat Enterprise Linux 終了方法
 ターミナルに **```sudo shutdown -h now```** を入力
