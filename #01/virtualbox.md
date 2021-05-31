@@ -449,6 +449,7 @@ https://access.redhat.com/</br>
 </br>
 
 対象マシンの登録情報詳細を確認</br>
+適応しているサブスクリプションを選択すると、今回構築したマシンが登録されている</br>
 <kbd><img src=./images/virtualbox/181.png /></kbd>
 </br>
 
@@ -472,3 +473,5 @@ Usage Type:Development/Test</br>
 <kbd><img src=./images/virtualbox/084_5.png /></kbd>
 </br>
 
+## Red Hat Enterprise Linux 終了方法
+ターミナルに **```sudo shutdown -h now```** を入力
