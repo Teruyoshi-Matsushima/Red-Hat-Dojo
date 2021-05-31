@@ -464,12 +464,12 @@ Usage Type:Development/Test</br>
 <kbd><img src=./images/virtualbox/183.png /></kbd>
 </br>
 
-サブスクリプションのステータス確認</br>
+### サブスクリプションのステータス確認</br>
 <kbd><img src=./images/virtualbox/082.png /></kbd>
 </br>
 
 
-パッケージをアップデート</br>
+### パッケージをアップデート</br>
 <kbd><img src=./images/virtualbox/084_5.png /></kbd>
 </br>
 
