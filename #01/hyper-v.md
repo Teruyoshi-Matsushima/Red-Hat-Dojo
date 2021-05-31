@@ -317,12 +317,12 @@ Usage Type:Development/Test</br>
 <kbd><img src=./images/hyper-v/183.png /></kbd>
 </br>
 
-サブスクリプションのステータス確認</br>
+### サブスクリプションのステータス確認</br>
 コマンド： **```sudo subscription-manager list ```** </br>
 <kbd><img src=./images/hyper-v/159.png /></kbd>
 </br>
 
-パッケージをアップデート</br>
+### パッケージをアップデート</br>
 コマンド： **```sudo dnf check-update ```** </br>
 <kbd><img src=./images/hyper-v/160_2.png /></kbd>
 </br>
