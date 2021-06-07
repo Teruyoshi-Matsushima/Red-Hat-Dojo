@@ -290,7 +290,7 @@ PowerShellのプロパティを開く</br>
 <kbd><img src=./images/hyper-v/056.png /></kbd>
 </br>
 
-## サブスクリプション登録
+## サブスクリプション詳細設定
 
 1. Red Hat Customer Portalにログインする。</br>
 https://access.redhat.com/</br>
