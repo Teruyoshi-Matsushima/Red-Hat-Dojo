@@ -51,8 +51,8 @@ NAT</br>
 ## Red Hat Enterprise Linux8.3 インストール開始
 これからVirtualBoxの中で作業していきます。</br>
 Virtualboxの場合、カーソル(矢印ですね)がVirtualBoxから抜け出せなくなる。</br>
-** Mac ** : ** 左のcommandキー **を押せばOK</br>
-** Windows ** : ** 右のCTRLキー ** を押せばOK</br>
+**Mac** : **左のcommandキー**を押せばOK</br>
+**Windows** : **右のCTRLキー** を押せばOK</br>
 
 </br>
 <kbd><img src=./images/virtualbox/008_0.png /></kbd>
